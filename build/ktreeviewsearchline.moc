@@ -1,0 +1,260 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'ktreeviewsearchline.h'
+**
+** Created: Sat Jun 8 19:29:17 2013
+**      by: The Qt Meta Object Compiler version 63 (Qt 4.8.4)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../ui/ktreeviewsearchline.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'ktreeviewsearchline.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.4. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_KTreeViewSearchLine[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      19,   14, // methods
+       2,  109, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       1,       // signalCount
+
+ // signals: signature, parameters, type, tag, flags
+      21,   20,   20,   20, 0x05,
+
+ // slots: signature, parameters, type, tag, flags
+      53,   44,   20,   20, 0x0a,
+      77,   44,   20,   20, 0x0a,
+     112,  104,   20,   20, 0x0a,
+     134,   20,   20,   20, 0x2a,
+     165,  149,   20,   20, 0x0a,
+     211,  205,   20,   20, 0x0a,
+     238,  205,   20,   20, 0x0a,
+     274,  266,   20,   20, 0x0a,
+     303,   44,   20,   20, 0x0a,
+     337,  327,   20,   20, 0x0a,
+     376,  369,   20,   20, 0x09,
+     397,   20,   20,   20, 0x09,
+     417,  414,   20,   20, 0x08,
+     451,   20,   20,   20, 0x08,
+     477,   20,   20,   20, 0x08,
+     507,   20,   20,   20, 0x08,
+     531,   20,   20,   20, 0x08,
+     551,   20,   20,   20, 0x08,
+
+ // properties: name, type, flags
+     595,  575, 0x0009500b,
+     614,  609, 0x01095103,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_KTreeViewSearchLine[] = {
+    "KTreeViewSearchLine\0\0searchOptionsChanged()\0"
+    "treeView\0addTreeView(QTreeView*)\0"
+    "removeTreeView(QTreeView*)\0pattern\0"
+    "updateSearch(QString)\0updateSearch()\0"
+    "caseSensitivity\0setCaseSensitivity(Qt::CaseSensitivity)\0"
+    "value\0setRegularExpression(bool)\0"
+    "setKeepParentsVisible(bool)\0columns\0"
+    "setSearchColumns(QList<int>)\0"
+    "setTreeView(QTreeView*)\0treeViews\0"
+    "setTreeViews(QList<QTreeView*>)\0search\0"
+    "queueSearch(QString)\0activateSearch()\0"
+    ",,\0rowsInserted(QModelIndex,int,int)\0"
+    "treeViewDeleted(QObject*)\0"
+    "slotColumnActivated(QAction*)\0"
+    "slotAllVisibleColumns()\0slotCaseSensitive()\0"
+    "slotRegularExpression()\0Qt::CaseSensitivity\0"
+    "caseSensitity\0bool\0keepParentsVisible\0"
+};
+
+void KTreeViewSearchLine::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        KTreeViewSearchLine *_t = static_cast<KTreeViewSearchLine *>(_o);
+        switch (_id) {
+        case 0: _t->searchOptionsChanged(); break;
+        case 1: _t->addTreeView((*reinterpret_cast< QTreeView*(*)>(_a[1]))); break;
+        case 2: _t->removeTreeView((*reinterpret_cast< QTreeView*(*)>(_a[1]))); break;
+        case 3: _t->updateSearch((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 4: _t->updateSearch(); break;
+        case 5: _t->setCaseSensitivity((*reinterpret_cast< Qt::CaseSensitivity(*)>(_a[1]))); break;
+        case 6: _t->setRegularExpression((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 7: _t->setKeepParentsVisible((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 8: _t->setSearchColumns((*reinterpret_cast< const QList<int>(*)>(_a[1]))); break;
+        case 9: _t->setTreeView((*reinterpret_cast< QTreeView*(*)>(_a[1]))); break;
+        case 10: _t->setTreeViews((*reinterpret_cast< const QList<QTreeView*>(*)>(_a[1]))); break;
+        case 11: _t->queueSearch((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 12: _t->activateSearch(); break;
+        case 13: _t->d->rowsInserted((*reinterpret_cast< const QModelIndex(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2])),(*reinterpret_cast< int(*)>(_a[3]))); break;
+        case 14: _t->d->treeViewDeleted((*reinterpret_cast< QObject*(*)>(_a[1]))); break;
+        case 15: _t->d->slotColumnActivated((*reinterpret_cast< QAction*(*)>(_a[1]))); break;
+        case 16: _t->d->slotAllVisibleColumns(); break;
+        case 17: _t->d->slotCaseSensitive(); break;
+        case 18: _t->d->slotRegularExpression(); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData KTreeViewSearchLine::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject KTreeViewSearchLine::staticMetaObject = {
+    { &KLineEdit::staticMetaObject, qt_meta_stringdata_KTreeViewSearchLine,
+      qt_meta_data_KTreeViewSearchLine, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &KTreeViewSearchLine::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *KTreeViewSearchLine::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *KTreeViewSearchLine::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_KTreeViewSearchLine))
+        return static_cast<void*>(const_cast< KTreeViewSearchLine*>(this));
+    return KLineEdit::qt_metacast(_clname);
+}
+
+int KTreeViewSearchLine::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = KLineEdit::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 19)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 19;
+    }
+#ifndef QT_NO_PROPERTIES
+      else if (_c == QMetaObject::ReadProperty) {
+        void *_v = _a[0];
+        switch (_id) {
+        case 0: *reinterpret_cast< Qt::CaseSensitivity*>(_v) = caseSensitivity(); break;
+        case 1: *reinterpret_cast< bool*>(_v) = keepParentsVisible(); break;
+        }
+        _id -= 2;
+    } else if (_c == QMetaObject::WriteProperty) {
+        void *_v = _a[0];
+        switch (_id) {
+        case 0: setCaseSensitivity(*reinterpret_cast< Qt::CaseSensitivity*>(_v)); break;
+        case 1: setKeepParentsVisible(*reinterpret_cast< bool*>(_v)); break;
+        }
+        _id -= 2;
+    } else if (_c == QMetaObject::ResetProperty) {
+        _id -= 2;
+    } else if (_c == QMetaObject::QueryPropertyDesignable) {
+        _id -= 2;
+    } else if (_c == QMetaObject::QueryPropertyScriptable) {
+        _id -= 2;
+    } else if (_c == QMetaObject::QueryPropertyStored) {
+        _id -= 2;
+    } else if (_c == QMetaObject::QueryPropertyEditable) {
+        _id -= 2;
+    } else if (_c == QMetaObject::QueryPropertyUser) {
+        _id -= 2;
+    }
+#endif // QT_NO_PROPERTIES
+    return _id;
+}
+
+// SIGNAL 0
+void KTreeViewSearchLine::searchOptionsChanged()
+{
+    QMetaObject::activate(this, &staticMetaObject, 0, 0);
+}
+static const uint qt_meta_data_KTreeViewSearchLineWidget[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       1,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: signature, parameters, type, tag, flags
+      27,   26,   26,   26, 0x09,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_KTreeViewSearchLineWidget[] = {
+    "KTreeViewSearchLineWidget\0\0createWidgets()\0"
+};
+
+void KTreeViewSearchLineWidget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        KTreeViewSearchLineWidget *_t = static_cast<KTreeViewSearchLineWidget *>(_o);
+        switch (_id) {
+        case 0: _t->createWidgets(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData KTreeViewSearchLineWidget::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject KTreeViewSearchLineWidget::staticMetaObject = {
+    { &QWidget::staticMetaObject, qt_meta_stringdata_KTreeViewSearchLineWidget,
+      qt_meta_data_KTreeViewSearchLineWidget, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &KTreeViewSearchLineWidget::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *KTreeViewSearchLineWidget::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *KTreeViewSearchLineWidget::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_KTreeViewSearchLineWidget))
+        return static_cast<void*>(const_cast< KTreeViewSearchLineWidget*>(this));
+    return QWidget::qt_metacast(_clname);
+}
+
+int KTreeViewSearchLineWidget::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QWidget::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 1)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 1;
+    }
+    return _id;
+}
+QT_END_MOC_NAMESPACE

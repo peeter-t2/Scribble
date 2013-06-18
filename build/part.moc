@@ -1,0 +1,387 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'part.h'
+**
+** Created: Sat Jun 8 19:29:16 2013
+**      by: The Qt Meta Object Compiler version 63 (Qt 4.8.4)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../part.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'part.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.4. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_Okular__Part[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       1,   14, // classinfo
+      69,   16, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       4,       // signalCount
+
+ // classinfo: key, value
+      28,   13,
+
+ // signals: signature, parameters, type, tag, flags
+      52,   45,   44,   44, 0x05,
+     100,   76,   44,   44, 0x05,
+     145,  137,   44,   44, 0x05,
+     173,   45,   44,   44, 0x05,
+
+ // slots: signature, parameters, type, tag, flags
+     212,  207,   44,  197, 0x4a,
+     231,  227,   44,  197, 0x4a,
+     258,   44,  253,   44, 0x4a,
+     266,   44,  253,   44, 0x4a,
+     288,   44,  280,   44, 0x4a,
+     315,  306,  280,   44, 0x4a,
+     341,   44,   44,   44, 0x4a,
+     359,   44,   44,   44, 0x4a,
+     370,   44,   44,   44, 0x4a,
+     389,   44,   44,   44, 0x4a,
+     408,   44,   44,   44, 0x4a,
+     423,   44,   44,   44, 0x4a,
+     439,   44,   44,   44, 0x4a,
+     454,   44,   44,   44, 0x4a,
+     479,   44,   44,  197, 0x4a,
+     488,   44,   44,  197, 0x4a,
+     515,  511,   44,   44, 0x09,
+     541,  511,   44,   44, 0x09,
+     568,   44,   44,   44, 0x09,
+     583,   44,   44,   44, 0x09,
+     601,   44,   44,   44, 0x09,
+     619,   44,   44,   44, 0x09,
+     637,   44,   44,   44, 0x09,
+     666,   44,   44,   44, 0x09,
+     726,  702,   44,   44, 0x09,
+     777,   44,   44,   44, 0x09,
+     800,   44,   44,   44, 0x09,
+     819,   44,   44,   44, 0x09,
+     834,   44,   44,   44, 0x09,
+     849,   44,   44,   44, 0x09,
+     866,   44,   44,   44, 0x09,
+     883,   44,   44,   44, 0x09,
+     901,   44,   44,   44, 0x09,
+     928,  917,   44,   44, 0x09,
+     969,   44,   44,   44, 0x09,
+     990,   44,   44,   44, 0x09,
+    1014,   44,   44,   44, 0x09,
+    1034,   44,   44,   44, 0x09,
+    1054,   44,   44,   44, 0x09,
+    1077,   44,   44,   44, 0x09,
+    1100,   44,   44,   44, 0x09,
+    1128,   44, 1123,   44, 0x09,
+    1147,   44,   44,   44, 0x09,
+    1166,   44,   44,   44, 0x09,
+    1179,   44,   44,   44, 0x09,
+    1187,   44,   44,   44, 0x09,
+    1200,   44,   44,   44, 0x09,
+    1218,   44,   44,   44, 0x09,
+    1240, 1236,   44,   44, 0x09,
+    1266, 1236,   44,   44, 0x09,
+    1296, 1289,   44,   44, 0x09,
+    1319,   44,   44,   44, 0x09,
+    1348,   44,   44,   44, 0x09,
+    1368,   44,   44,   44, 0x09,
+    1393,   45,   44,   44, 0x09,
+    1409,   44,   44,   44, 0x09,
+    1435,   44,   44,   44, 0x0a,
+    1453, 1447,   44,   44, 0x0a,
+    1483, 1447,   44,   44, 0x0a,
+    1522,   44,   44,   44, 0x0a,
+    1545,   44,   44,   44, 0x0a,
+    1565, 1563,   44,   44, 0x0a,
+    1608,   44,   44,   44, 0x08,
+    1635,   44,   44,   44, 0x08,
+    1692, 1663,   44,   44, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_Okular__Part[] = {
+    "Okular::Part\0org.kde.okular\0D-Bus Interface\0"
+    "\0enable\0enablePrintAction(bool)\0"
+    "absFileName,line,column\0"
+    "openSourceReference(QString,int,int)\0"
+    "enabled\0viewerMenuStateChange(bool)\0"
+    "enableCloseAction(bool)\0Q_NOREPLY\0"
+    "page\0goToPage(uint)\0doc\0openDocument(QString)\0"
+    "uint\0pages()\0currentPage()\0QString\0"
+    "currentDocument()\0metaData\0"
+    "documentMetaData(QString)\0slotPreferences()\0"
+    "slotFind()\0slotPrintPreview()\0"
+    "slotPreviousPage()\0slotNextPage()\0"
+    "slotGotoFirst()\0slotGotoLast()\0"
+    "slotTogglePresentation()\0reload()\0"
+    "enableStartWithPrint()\0url\0"
+    "openUrlFromDocument(KUrl)\0"
+    "openUrlFromBookmarks(KUrl)\0slotGoToPage()\0"
+    "slotHistoryBack()\0slotHistoryNext()\0"
+    "slotAddBookmark()\0slotRenameBookmarkFromMenu()\0"
+    "slotRenameCurrentViewportBookmark()\0"
+    "menu,action,contextMenu\0"
+    "slotAboutToShowContextMenu(KMenu*,QAction*,QMenu*)\0"
+    "slotPreviousBookmark()\0slotNextBookmark()\0"
+    "slotFindNext()\0slotFindPrev()\0"
+    "slotSaveFileAs()\0slotSaveCopyAs()\0"
+    "slotGetNewStuff()\0slotNewConfig()\0"
+    "page,point\0slotShowMenu(const Okular::Page*,QPoint)\0"
+    "slotShowProperties()\0slotShowEmbeddedFiles()\0"
+    "slotShowLeftPanel()\0slotShowBottomBar()\0"
+    "slotShowPresentation()\0slotHidePresentation()\0"
+    "slotExportAs(QAction*)\0bool\0"
+    "slotImportPSFile()\0slotAboutBackend()\0"
+    "slotReload()\0close()\0cannotQuit()\0"
+    "slotShowFindBar()\0slotHideFindBar()\0"
+    "job\0slotJobStarted(KIO::Job*)\0"
+    "slotJobFinished(KJob*)\0reason\0"
+    "loadCancelled(QString)\0"
+    "setWindowTitleFromDocument()\0"
+    "updateViewActions()\0updateBookmarksActions()\0"
+    "enableTOC(bool)\0slotRebuildBookmarkMenu()\0"
+    "slotPrint()\0group\0restoreDocument(KConfigGroup)\0"
+    "saveDocumentRestoreInfo(KConfigGroup&)\0"
+    "slotFileDirty(QString)\0slotDoFileDirty()\0"
+    ",\0psTransformEnded(int,QProcess::ExitStatus)\0"
+    "slotGeneratorPreferences()\0"
+    "slotAnnotationPreferences()\0"
+    "absFileName,line,col,handled\0"
+    "slotHandleActivatedSourceReference(QString,int,int,bool*)\0"
+};
+
+void Okular::Part::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        Part *_t = static_cast<Part *>(_o);
+        switch (_id) {
+        case 0: _t->enablePrintAction((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 1: _t->openSourceReference((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2])),(*reinterpret_cast< int(*)>(_a[3]))); break;
+        case 2: _t->viewerMenuStateChange((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 3: _t->enableCloseAction((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 4: _t->goToPage((*reinterpret_cast< uint(*)>(_a[1]))); break;
+        case 5: _t->openDocument((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 6: { uint _r = _t->pages();
+            if (_a[0]) *reinterpret_cast< uint*>(_a[0]) = _r; }  break;
+        case 7: { uint _r = _t->currentPage();
+            if (_a[0]) *reinterpret_cast< uint*>(_a[0]) = _r; }  break;
+        case 8: { QString _r = _t->currentDocument();
+            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = _r; }  break;
+        case 9: { QString _r = _t->documentMetaData((*reinterpret_cast< const QString(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = _r; }  break;
+        case 10: _t->slotPreferences(); break;
+        case 11: _t->slotFind(); break;
+        case 12: _t->slotPrintPreview(); break;
+        case 13: _t->slotPreviousPage(); break;
+        case 14: _t->slotNextPage(); break;
+        case 15: _t->slotGotoFirst(); break;
+        case 16: _t->slotGotoLast(); break;
+        case 17: _t->slotTogglePresentation(); break;
+        case 18: _t->reload(); break;
+        case 19: _t->enableStartWithPrint(); break;
+        case 20: _t->openUrlFromDocument((*reinterpret_cast< const KUrl(*)>(_a[1]))); break;
+        case 21: _t->openUrlFromBookmarks((*reinterpret_cast< const KUrl(*)>(_a[1]))); break;
+        case 22: _t->slotGoToPage(); break;
+        case 23: _t->slotHistoryBack(); break;
+        case 24: _t->slotHistoryNext(); break;
+        case 25: _t->slotAddBookmark(); break;
+        case 26: _t->slotRenameBookmarkFromMenu(); break;
+        case 27: _t->slotRenameCurrentViewportBookmark(); break;
+        case 28: _t->slotAboutToShowContextMenu((*reinterpret_cast< KMenu*(*)>(_a[1])),(*reinterpret_cast< QAction*(*)>(_a[2])),(*reinterpret_cast< QMenu*(*)>(_a[3]))); break;
+        case 29: _t->slotPreviousBookmark(); break;
+        case 30: _t->slotNextBookmark(); break;
+        case 31: _t->slotFindNext(); break;
+        case 32: _t->slotFindPrev(); break;
+        case 33: _t->slotSaveFileAs(); break;
+        case 34: _t->slotSaveCopyAs(); break;
+        case 35: _t->slotGetNewStuff(); break;
+        case 36: _t->slotNewConfig(); break;
+        case 37: _t->slotShowMenu((*reinterpret_cast< const Okular::Page*(*)>(_a[1])),(*reinterpret_cast< const QPoint(*)>(_a[2]))); break;
+        case 38: _t->slotShowProperties(); break;
+        case 39: _t->slotShowEmbeddedFiles(); break;
+        case 40: _t->slotShowLeftPanel(); break;
+        case 41: _t->slotShowBottomBar(); break;
+        case 42: _t->slotShowPresentation(); break;
+        case 43: _t->slotHidePresentation(); break;
+        case 44: _t->slotExportAs((*reinterpret_cast< QAction*(*)>(_a[1]))); break;
+        case 45: { bool _r = _t->slotImportPSFile();
+            if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = _r; }  break;
+        case 46: _t->slotAboutBackend(); break;
+        case 47: _t->slotReload(); break;
+        case 48: _t->close(); break;
+        case 49: _t->cannotQuit(); break;
+        case 50: _t->slotShowFindBar(); break;
+        case 51: _t->slotHideFindBar(); break;
+        case 52: _t->slotJobStarted((*reinterpret_cast< KIO::Job*(*)>(_a[1]))); break;
+        case 53: _t->slotJobFinished((*reinterpret_cast< KJob*(*)>(_a[1]))); break;
+        case 54: _t->loadCancelled((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 55: _t->setWindowTitleFromDocument(); break;
+        case 56: _t->updateViewActions(); break;
+        case 57: _t->updateBookmarksActions(); break;
+        case 58: _t->enableTOC((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 59: _t->slotRebuildBookmarkMenu(); break;
+        case 60: _t->slotPrint(); break;
+        case 61: _t->restoreDocument((*reinterpret_cast< const KConfigGroup(*)>(_a[1]))); break;
+        case 62: _t->saveDocumentRestoreInfo((*reinterpret_cast< KConfigGroup(*)>(_a[1]))); break;
+        case 63: _t->slotFileDirty((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 64: _t->slotDoFileDirty(); break;
+        case 65: _t->psTransformEnded((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< QProcess::ExitStatus(*)>(_a[2]))); break;
+        case 66: _t->slotGeneratorPreferences(); break;
+        case 67: _t->slotAnnotationPreferences(); break;
+        case 68: _t->slotHandleActivatedSourceReference((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2])),(*reinterpret_cast< int(*)>(_a[3])),(*reinterpret_cast< bool*(*)>(_a[4]))); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData Okular::Part::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject Okular::Part::staticMetaObject = {
+    { &KParts::ReadWritePart::staticMetaObject, qt_meta_stringdata_Okular__Part,
+      qt_meta_data_Okular__Part, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &Okular::Part::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *Okular::Part::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *Okular::Part::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_Okular__Part))
+        return static_cast<void*>(const_cast< Part*>(this));
+    if (!strcmp(_clname, "Okular::DocumentObserver"))
+        return static_cast< Okular::DocumentObserver*>(const_cast< Part*>(this));
+    if (!strcmp(_clname, "KDocumentViewer"))
+        return static_cast< KDocumentViewer*>(const_cast< Part*>(this));
+    if (!strcmp(_clname, "Okular::ViewerInterface"))
+        return static_cast< Okular::ViewerInterface*>(const_cast< Part*>(this));
+    if (!strcmp(_clname, "org.kde.kdocumentviewer/0.1"))
+        return static_cast< KDocumentViewer*>(const_cast< Part*>(this));
+    if (!strcmp(_clname, "org.kde.okular.ViewerInterface/0.1"))
+        return static_cast< Okular::ViewerInterface*>(const_cast< Part*>(this));
+    typedef KParts::ReadWritePart QMocSuperClass;
+    return QMocSuperClass::qt_metacast(_clname);
+}
+
+int Okular::Part::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    typedef KParts::ReadWritePart QMocSuperClass;
+    _id = QMocSuperClass::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 69)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 69;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void Okular::Part::enablePrintAction(bool _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 0, _a);
+}
+
+// SIGNAL 1
+void Okular::Part::openSourceReference(const QString & _t1, int _t2, int _t3)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
+    QMetaObject::activate(this, &staticMetaObject, 1, _a);
+}
+
+// SIGNAL 2
+void Okular::Part::viewerMenuStateChange(bool _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 2, _a);
+}
+
+// SIGNAL 3
+void Okular::Part::enableCloseAction(bool _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 3, _a);
+}
+static const uint qt_meta_data_Okular__PartFactory[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_Okular__PartFactory[] = {
+    "Okular::PartFactory\0"
+};
+
+void Okular::PartFactory::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData Okular::PartFactory::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject Okular::PartFactory::staticMetaObject = {
+    { &KPluginFactory::staticMetaObject, qt_meta_stringdata_Okular__PartFactory,
+      qt_meta_data_Okular__PartFactory, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &Okular::PartFactory::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *Okular::PartFactory::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *Okular::PartFactory::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_Okular__PartFactory))
+        return static_cast<void*>(const_cast< PartFactory*>(this));
+    return KPluginFactory::qt_metacast(_clname);
+}
+
+int Okular::PartFactory::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = KPluginFactory::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+QT_END_MOC_NAMESPACE

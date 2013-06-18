@@ -1,0 +1,100 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'generator_ghostview.h'
+**
+** Created: Sat Jun 8 19:31:24 2013
+**      by: The Qt Meta Object Compiler version 63 (Qt 4.8.4)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../../../generators/spectre/generator_ghostview.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'generator_ghostview.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.4. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_GSGenerator[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       1,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: signature, parameters, type, tag, flags
+      25,   13,   12,   12, 0x0a,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_GSGenerator[] = {
+    "GSGenerator\0\0img,request\0"
+    "slotImageGenerated(QImage*,Okular::PixmapRequest*)\0"
+};
+
+void GSGenerator::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        GSGenerator *_t = static_cast<GSGenerator *>(_o);
+        switch (_id) {
+        case 0: _t->slotImageGenerated((*reinterpret_cast< QImage*(*)>(_a[1])),(*reinterpret_cast< Okular::PixmapRequest*(*)>(_a[2]))); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData GSGenerator::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject GSGenerator::staticMetaObject = {
+    { &Okular::Generator::staticMetaObject, qt_meta_stringdata_GSGenerator,
+      qt_meta_data_GSGenerator, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &GSGenerator::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *GSGenerator::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *GSGenerator::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_GSGenerator))
+        return static_cast<void*>(const_cast< GSGenerator*>(this));
+    if (!strcmp(_clname, "Okular::ConfigInterface"))
+        return static_cast< Okular::ConfigInterface*>(const_cast< GSGenerator*>(this));
+    if (!strcmp(_clname, "org.kde.okular.ConfigInterface/0.1"))
+        return static_cast< Okular::ConfigInterface*>(const_cast< GSGenerator*>(this));
+    typedef Okular::Generator QMocSuperClass;
+    return QMocSuperClass::qt_metacast(_clname);
+}
+
+int GSGenerator::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    typedef Okular::Generator QMocSuperClass;
+    _id = QMocSuperClass::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 1)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 1;
+    }
+    return _id;
+}
+QT_END_MOC_NAMESPACE

@@ -1,0 +1,396 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'document.h'
+**
+** Created: Sat Jun 8 19:28:21 2013
+**      by: The Qt Meta Object Compiler version 63 (Qt 4.8.4)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../core/document.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'document.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.4. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_Okular__Document[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      45,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+      24,       // signalCount
+
+ // signals: signature, parameters, type, tag, flags
+      18,   17,   17,   17, 0x05,
+      26,   17,   17,   17, 0x05,
+      33,   17,   17,   17, 0x05,
+      44,   17,   17,   17, 0x05,
+      59,   17,   17,   17, 0x05,
+      78,   17,   17,   17, 0x05,
+     104,  100,   17,   17, 0x05,
+     132,  118,   17,   17, 0x05,
+     151,  118,   17,   17, 0x05,
+     172,  118,   17,   17, 0x05,
+     197,  192,   17,   17, 0x05,
+     228,  223,   17,   17, 0x05,
+     253,   17,   17,   17, 0x05,
+     285,  272,   17,   17, 0x05,
+     365,  336,   17,   17, 0x05,
+     420,  413,   17,   17, 0x05,
+     481,  467,   17,   17, 0x05,
+     516,  502,   17,   17, 0x05,
+     537,  413,   17,   17, 0x05,
+     632,  592,   17,   17, 0x05,
+     744,  705,   17,   17, 0x05,
+     832,  814,   17,   17, 0x05,
+     934,  899,   17,   17, 0x05,
+    1024, 1007,   17,   17, 0x05,
+
+ // slots: signature, parameters, type, tag, flags
+    1099, 1090,   17,   17, 0x0a,
+    1121, 1116,   17,   17, 0x0a,
+    1143,   17,   17,   17, 0x0a,
+    1158,   17,   17,   17, 0x0a,
+    1165,   17,   17,   17, 0x0a,
+    1241, 1172,   17,   17, 0x0a,
+    1329, 1302,   17,   17, 0x0a,
+    1448, 1383,   17,   17, 0x0a,
+    1551, 1512,   17,   17, 0x0a,
+    1616,   17,   17,   17, 0x08,
+    1635,   17,   17,   17, 0x08,
+    1658,   17,   17,   17, 0x08,
+    1703, 1687,   17,   17, 0x08,
+     228,  223,   17,   17, 0x08,
+    1739,  192,   17,   17, 0x08,
+    1776,   17,   17,   17, 0x08,
+    1812,   17,   17,   17, 0x08,
+    1832,   17,   17,   17, 0x08,
+    1888, 1851,   17,   17, 0x08,
+    2006, 1926,   17,   17, 0x08,
+    2164, 2074,   17,   17, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_Okular__Document[] = {
+    "Okular::Document\0\0close()\0quit()\0"
+    "linkFind()\0linkGoToPage()\0linkPresentation()\0"
+    "linkEndPresentation()\0url\0openUrl(KUrl)\0"
+    "text,duration\0error(QString,int)\0"
+    "warning(QString,int)\0notice(QString,int)\0"
+    "font\0gotFont(Okular::FontInfo)\0page\0"
+    "fontReadingProgress(int)\0fontReadingEnded()\0"
+    "id,endStatus\0"
+    "searchFinished(int,Okular::Document::SearchStatus)\0"
+    "absFileName,line,col,handled\0"
+    "sourceReferenceActivated(QString,int,int,bool*)\0"
+    "action\0processMovieAction(const Okular::MovieAction*)\0"
+    "undoAvailable\0canUndoChanged(bool)\0"
+    "redoAvailable\0canRedoChanged(bool)\0"
+    "processRenditionAction(const Okular::RenditionAction*)\0"
+    "annotation,contents,cursorPos,anchorPos\0"
+    "annotationContentsChangedByUndoRedo(Okular::Annotation*,QString,int,in"
+    "t)\0"
+    "page,form,contents,cursorPos,anchorPos\0"
+    "formTextChangedByUndoRedo(int,Okular::FormFieldText*,QString,int,int)\0"
+    "page,form,choices\0"
+    "formListChangedByUndoRedo(int,Okular::FormFieldChoice*,QList<int>)\0"
+    "page,form,text,cursorPos,anchorPos\0"
+    "formComboChangedByUndoRedo(int,Okular::FormFieldChoice*,QString,int,in"
+    "t)\0"
+    "page,formButtons\0"
+    "formButtonsChangedByUndoRedo(int,QList<Okular::FormFieldButton*>)\0"
+    "rotation\0setRotation(int)\0size\0"
+    "setPageSize(PageSize)\0cancelSearch()\0"
+    "undo()\0redo()\0"
+    "pageNumber,form,newContents,newCursorPos,prevCursorPos,prevAnchorPos\0"
+    "editFormText(int,Okular::FormFieldText*,QString,int,int,int)\0"
+    "pageNumber,form,newChoices\0"
+    "editFormList(int,Okular::FormFieldChoice*,QList<int>)\0"
+    "pageNumber,form,newText,newCursorPos,prevCursorPos,prevAnchorPos\0"
+    "editFormCombo(int,Okular::FormFieldChoice*,QString,int,int,int)\0"
+    "pageNumber,formButtons,newButtonStates\0"
+    "editFormButtons(int,QList<Okular::FormFieldButton*>,QList<bool>)\0"
+    "saveDocumentInfo()\0slotTimedMemoryCheck()\0"
+    "sendGeneratorPixmapRequest()\0"
+    "page,okularPage\0rotationFinished(int,Okular::Page*)\0"
+    "fontReadingGotFont(Okular::FontInfo)\0"
+    "slotGeneratorConfigChanged(QString)\0"
+    "refreshPixmaps(int)\0_o_configChanged()\0"
+    "doContinueDirectionMatchSearchStruct\0"
+    "doContinueDirectionMatchSearch(void*)\0"
+    "pagesToNotifySet,pageMatchesMap,currentPage,searchID,text,caseSensitiv"
+    "ity,color\0"
+    "doContinueAllDocumentSearch(void*,void*,int,int,QString,int,QColor)\0"
+    "pagesToNotifySet,pageMatchesMap,currentPage,searchID,words,caseSensiti"
+    "vity,color,matchAll\0"
+    "doContinueGooglesDocumentSearch(void*,void*,int,int,QStringList,int,QC"
+    "olor,bool)\0"
+};
+
+void Okular::Document::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        Document *_t = static_cast<Document *>(_o);
+        switch (_id) {
+        case 0: _t->close(); break;
+        case 1: _t->quit(); break;
+        case 2: _t->linkFind(); break;
+        case 3: _t->linkGoToPage(); break;
+        case 4: _t->linkPresentation(); break;
+        case 5: _t->linkEndPresentation(); break;
+        case 6: _t->openUrl((*reinterpret_cast< const KUrl(*)>(_a[1]))); break;
+        case 7: _t->error((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
+        case 8: _t->warning((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
+        case 9: _t->notice((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
+        case 10: _t->gotFont((*reinterpret_cast< const Okular::FontInfo(*)>(_a[1]))); break;
+        case 11: _t->fontReadingProgress((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 12: _t->fontReadingEnded(); break;
+        case 13: _t->searchFinished((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< Okular::Document::SearchStatus(*)>(_a[2]))); break;
+        case 14: _t->sourceReferenceActivated((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2])),(*reinterpret_cast< int(*)>(_a[3])),(*reinterpret_cast< bool*(*)>(_a[4]))); break;
+        case 15: _t->processMovieAction((*reinterpret_cast< const Okular::MovieAction*(*)>(_a[1]))); break;
+        case 16: _t->canUndoChanged((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 17: _t->canRedoChanged((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 18: _t->processRenditionAction((*reinterpret_cast< const Okular::RenditionAction*(*)>(_a[1]))); break;
+        case 19: _t->annotationContentsChangedByUndoRedo((*reinterpret_cast< Okular::Annotation*(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2])),(*reinterpret_cast< int(*)>(_a[3])),(*reinterpret_cast< int(*)>(_a[4]))); break;
+        case 20: _t->formTextChangedByUndoRedo((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< Okular::FormFieldText*(*)>(_a[2])),(*reinterpret_cast< const QString(*)>(_a[3])),(*reinterpret_cast< int(*)>(_a[4])),(*reinterpret_cast< int(*)>(_a[5]))); break;
+        case 21: _t->formListChangedByUndoRedo((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< Okular::FormFieldChoice*(*)>(_a[2])),(*reinterpret_cast< const QList<int>(*)>(_a[3]))); break;
+        case 22: _t->formComboChangedByUndoRedo((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< Okular::FormFieldChoice*(*)>(_a[2])),(*reinterpret_cast< const QString(*)>(_a[3])),(*reinterpret_cast< int(*)>(_a[4])),(*reinterpret_cast< int(*)>(_a[5]))); break;
+        case 23: _t->formButtonsChangedByUndoRedo((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< const QList<Okular::FormFieldButton*>(*)>(_a[2]))); break;
+        case 24: _t->setRotation((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 25: _t->setPageSize((*reinterpret_cast< const PageSize(*)>(_a[1]))); break;
+        case 26: _t->cancelSearch(); break;
+        case 27: _t->undo(); break;
+        case 28: _t->redo(); break;
+        case 29: _t->editFormText((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< Okular::FormFieldText*(*)>(_a[2])),(*reinterpret_cast< const QString(*)>(_a[3])),(*reinterpret_cast< int(*)>(_a[4])),(*reinterpret_cast< int(*)>(_a[5])),(*reinterpret_cast< int(*)>(_a[6]))); break;
+        case 30: _t->editFormList((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< Okular::FormFieldChoice*(*)>(_a[2])),(*reinterpret_cast< const QList<int>(*)>(_a[3]))); break;
+        case 31: _t->editFormCombo((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< Okular::FormFieldChoice*(*)>(_a[2])),(*reinterpret_cast< const QString(*)>(_a[3])),(*reinterpret_cast< int(*)>(_a[4])),(*reinterpret_cast< int(*)>(_a[5])),(*reinterpret_cast< int(*)>(_a[6]))); break;
+        case 32: _t->editFormButtons((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< const QList<Okular::FormFieldButton*>(*)>(_a[2])),(*reinterpret_cast< const QList<bool>(*)>(_a[3]))); break;
+        case 33: _t->d->saveDocumentInfo(); break;
+        case 34: _t->d->slotTimedMemoryCheck(); break;
+        case 35: _t->d->sendGeneratorPixmapRequest(); break;
+        case 36: _t->d->rotationFinished((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< Okular::Page*(*)>(_a[2]))); break;
+        case 37: _t->d->fontReadingProgress((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 38: _t->d->fontReadingGotFont((*reinterpret_cast< const Okular::FontInfo(*)>(_a[1]))); break;
+        case 39: _t->d->slotGeneratorConfigChanged((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 40: _t->d->refreshPixmaps((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 41: _t->d->_o_configChanged(); break;
+        case 42: _t->d->doContinueDirectionMatchSearch((*reinterpret_cast< void*(*)>(_a[1]))); break;
+        case 43: _t->d->doContinueAllDocumentSearch((*reinterpret_cast< void*(*)>(_a[1])),(*reinterpret_cast< void*(*)>(_a[2])),(*reinterpret_cast< int(*)>(_a[3])),(*reinterpret_cast< int(*)>(_a[4])),(*reinterpret_cast< const QString(*)>(_a[5])),(*reinterpret_cast< int(*)>(_a[6])),(*reinterpret_cast< const QColor(*)>(_a[7]))); break;
+        case 44: _t->d->doContinueGooglesDocumentSearch((*reinterpret_cast< void*(*)>(_a[1])),(*reinterpret_cast< void*(*)>(_a[2])),(*reinterpret_cast< int(*)>(_a[3])),(*reinterpret_cast< int(*)>(_a[4])),(*reinterpret_cast< const QStringList(*)>(_a[5])),(*reinterpret_cast< int(*)>(_a[6])),(*reinterpret_cast< const QColor(*)>(_a[7])),(*reinterpret_cast< bool(*)>(_a[8]))); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData Okular::Document::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject Okular::Document::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_Okular__Document,
+      qt_meta_data_Okular__Document, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &Okular::Document::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *Okular::Document::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *Okular::Document::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_Okular__Document))
+        return static_cast<void*>(const_cast< Document*>(this));
+    return QObject::qt_metacast(_clname);
+}
+
+int Okular::Document::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 45)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 45;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void Okular::Document::close()
+{
+    QMetaObject::activate(this, &staticMetaObject, 0, 0);
+}
+
+// SIGNAL 1
+void Okular::Document::quit()
+{
+    QMetaObject::activate(this, &staticMetaObject, 1, 0);
+}
+
+// SIGNAL 2
+void Okular::Document::linkFind()
+{
+    QMetaObject::activate(this, &staticMetaObject, 2, 0);
+}
+
+// SIGNAL 3
+void Okular::Document::linkGoToPage()
+{
+    QMetaObject::activate(this, &staticMetaObject, 3, 0);
+}
+
+// SIGNAL 4
+void Okular::Document::linkPresentation()
+{
+    QMetaObject::activate(this, &staticMetaObject, 4, 0);
+}
+
+// SIGNAL 5
+void Okular::Document::linkEndPresentation()
+{
+    QMetaObject::activate(this, &staticMetaObject, 5, 0);
+}
+
+// SIGNAL 6
+void Okular::Document::openUrl(const KUrl & _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 6, _a);
+}
+
+// SIGNAL 7
+void Okular::Document::error(const QString & _t1, int _t2)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    QMetaObject::activate(this, &staticMetaObject, 7, _a);
+}
+
+// SIGNAL 8
+void Okular::Document::warning(const QString & _t1, int _t2)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    QMetaObject::activate(this, &staticMetaObject, 8, _a);
+}
+
+// SIGNAL 9
+void Okular::Document::notice(const QString & _t1, int _t2)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    QMetaObject::activate(this, &staticMetaObject, 9, _a);
+}
+
+// SIGNAL 10
+void Okular::Document::gotFont(const Okular::FontInfo & _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 10, _a);
+}
+
+// SIGNAL 11
+void Okular::Document::fontReadingProgress(int _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 11, _a);
+}
+
+// SIGNAL 12
+void Okular::Document::fontReadingEnded()
+{
+    QMetaObject::activate(this, &staticMetaObject, 12, 0);
+}
+
+// SIGNAL 13
+void Okular::Document::searchFinished(int _t1, Okular::Document::SearchStatus _t2)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    QMetaObject::activate(this, &staticMetaObject, 13, _a);
+}
+
+// SIGNAL 14
+void Okular::Document::sourceReferenceActivated(const QString & _t1, int _t2, int _t3, bool * _t4)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)) };
+    QMetaObject::activate(this, &staticMetaObject, 14, _a);
+}
+
+// SIGNAL 15
+void Okular::Document::processMovieAction(const Okular::MovieAction * _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 15, _a);
+}
+
+// SIGNAL 16
+void Okular::Document::canUndoChanged(bool _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 16, _a);
+}
+
+// SIGNAL 17
+void Okular::Document::canRedoChanged(bool _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 17, _a);
+}
+
+// SIGNAL 18
+void Okular::Document::processRenditionAction(const Okular::RenditionAction * _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 18, _a);
+}
+
+// SIGNAL 19
+void Okular::Document::annotationContentsChangedByUndoRedo(Okular::Annotation * _t1, const QString & _t2, int _t3, int _t4)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)) };
+    QMetaObject::activate(this, &staticMetaObject, 19, _a);
+}
+
+// SIGNAL 20
+void Okular::Document::formTextChangedByUndoRedo(int _t1, Okular::FormFieldText * _t2, const QString & _t3, int _t4, int _t5)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)), const_cast<void*>(reinterpret_cast<const void*>(&_t5)) };
+    QMetaObject::activate(this, &staticMetaObject, 20, _a);
+}
+
+// SIGNAL 21
+void Okular::Document::formListChangedByUndoRedo(int _t1, Okular::FormFieldChoice * _t2, const QList<int> & _t3)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
+    QMetaObject::activate(this, &staticMetaObject, 21, _a);
+}
+
+// SIGNAL 22
+void Okular::Document::formComboChangedByUndoRedo(int _t1, Okular::FormFieldChoice * _t2, const QString & _t3, int _t4, int _t5)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)), const_cast<void*>(reinterpret_cast<const void*>(&_t5)) };
+    QMetaObject::activate(this, &staticMetaObject, 22, _a);
+}
+
+// SIGNAL 23
+void Okular::Document::formButtonsChangedByUndoRedo(int _t1, const QList<Okular::FormFieldButton*> & _t2)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    QMetaObject::activate(this, &staticMetaObject, 23, _a);
+}
+QT_END_MOC_NAMESPACE

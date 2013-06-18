@@ -1,0 +1,141 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'shell.h'
+**
+** Created: Sat Jun 8 19:31:08 2013
+**      by: The Qt Meta Object Compiler version 63 (Qt 4.8.4)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../../shell/shell.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'shell.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.4. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_Shell[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       1,   14, // classinfo
+      11,   16, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       2,       // signalCount
+
+ // classinfo: key, value
+      21,    6,
+
+ // signals: signature, parameters, type, tag, flags
+      44,   38,   37,   37, 0x05,
+      74,   38,   37,   37, 0x05,
+
+ // slots: signature, parameters, type, tag, flags
+     113,   37,   37,   37, 0x0a,
+     134,   37,   37,  124, 0x4a,
+     145,   37,   37,   37, 0x08,
+     156,   37,   37,   37, 0x08,
+     179,   37,   37,   37, 0x08,
+     201,  197,   37,   37, 0x08,
+     215,   37,   37,   37, 0x08,
+     229,   37,   37,   37, 0x08,
+     250,   37,   37,   37, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_Shell[] = {
+    "Shell\0org.kde.okular\0D-Bus Interface\0"
+    "\0group\0restoreDocument(KConfigGroup)\0"
+    "saveDocumentRestoreInfo(KConfigGroup&)\0"
+    "slotQuit()\0Q_NOREPLY\0tryRaise()\0"
+    "fileOpen()\0slotUpdateFullScreen()\0"
+    "slotShowMenubar()\0url\0openUrl(KUrl)\0"
+    "delayedOpen()\0showOpenRecentMenu()\0"
+    "closeUrl()\0"
+};
+
+void Shell::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        Shell *_t = static_cast<Shell *>(_o);
+        switch (_id) {
+        case 0: _t->restoreDocument((*reinterpret_cast< const KConfigGroup(*)>(_a[1]))); break;
+        case 1: _t->saveDocumentRestoreInfo((*reinterpret_cast< KConfigGroup(*)>(_a[1]))); break;
+        case 2: _t->slotQuit(); break;
+        case 3: _t->tryRaise(); break;
+        case 4: _t->fileOpen(); break;
+        case 5: _t->slotUpdateFullScreen(); break;
+        case 6: _t->slotShowMenubar(); break;
+        case 7: _t->openUrl((*reinterpret_cast< const KUrl(*)>(_a[1]))); break;
+        case 8: _t->delayedOpen(); break;
+        case 9: _t->showOpenRecentMenu(); break;
+        case 10: _t->closeUrl(); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData Shell::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject Shell::staticMetaObject = {
+    { &KParts::MainWindow::staticMetaObject, qt_meta_stringdata_Shell,
+      qt_meta_data_Shell, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &Shell::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *Shell::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *Shell::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_Shell))
+        return static_cast<void*>(const_cast< Shell*>(this));
+    typedef KParts::MainWindow QMocSuperClass;
+    return QMocSuperClass::qt_metacast(_clname);
+}
+
+int Shell::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    typedef KParts::MainWindow QMocSuperClass;
+    _id = QMocSuperClass::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 11)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 11;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void Shell::restoreDocument(const KConfigGroup & _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 0, _a);
+}
+
+// SIGNAL 1
+void Shell::saveDocumentRestoreInfo(KConfigGroup & _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 1, _a);
+}
+QT_END_MOC_NAMESPACE

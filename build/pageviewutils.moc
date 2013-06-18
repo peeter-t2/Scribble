@@ -1,0 +1,288 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'pageviewutils.h'
+**
+** Created: Sat Jun 8 19:29:15 2013
+**      by: The Qt Meta Object Compiler version 63 (Qt 4.8.4)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../ui/pageviewutils.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'pageviewutils.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.4. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_PageViewTopMessage[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       1,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       1,       // signalCount
+
+ // signals: signature, parameters, type, tag, flags
+      20,   19,   19,   19, 0x05,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_PageViewTopMessage[] = {
+    "PageViewTopMessage\0\0action()\0"
+};
+
+void PageViewTopMessage::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        PageViewTopMessage *_t = static_cast<PageViewTopMessage *>(_o);
+        switch (_id) {
+        case 0: _t->action(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData PageViewTopMessage::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject PageViewTopMessage::staticMetaObject = {
+    { &QWidget::staticMetaObject, qt_meta_stringdata_PageViewTopMessage,
+      qt_meta_data_PageViewTopMessage, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &PageViewTopMessage::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *PageViewTopMessage::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *PageViewTopMessage::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_PageViewTopMessage))
+        return static_cast<void*>(const_cast< PageViewTopMessage*>(this));
+    return QWidget::qt_metacast(_clname);
+}
+
+int PageViewTopMessage::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QWidget::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 1)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 1;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void PageViewTopMessage::action()
+{
+    QMetaObject::activate(this, &staticMetaObject, 0, 0);
+}
+static const uint qt_meta_data_ToolBarButton[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       1,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       1,       // signalCount
+
+ // signals: signature, parameters, type, tag, flags
+      24,   15,   14,   14, 0x05,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_ToolBarButton[] = {
+    "ToolBarButton\0\0buttonID\0"
+    "buttonDoubleClicked(int)\0"
+};
+
+void ToolBarButton::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        ToolBarButton *_t = static_cast<ToolBarButton *>(_o);
+        switch (_id) {
+        case 0: _t->buttonDoubleClicked((*reinterpret_cast< int(*)>(_a[1]))); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData ToolBarButton::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject ToolBarButton::staticMetaObject = {
+    { &QToolButton::staticMetaObject, qt_meta_stringdata_ToolBarButton,
+      qt_meta_data_ToolBarButton, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &ToolBarButton::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *ToolBarButton::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *ToolBarButton::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_ToolBarButton))
+        return static_cast<void*>(const_cast< ToolBarButton*>(this));
+    return QToolButton::qt_metacast(_clname);
+}
+
+int ToolBarButton::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QToolButton::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 1)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 1;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void ToolBarButton::buttonDoubleClicked(int _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 0, _a);
+}
+static const uint qt_meta_data_PageViewToolBar[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       5,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       3,       // signalCount
+
+ // signals: signature, parameters, type, tag, flags
+      24,   17,   16,   16, 0x05,
+      47,   42,   16,   16, 0x05,
+      80,   71,   16,   16, 0x05,
+
+ // slots: signature, parameters, type, tag, flags
+     105,   16,   16,   16, 0x08,
+     119,   16,   16,   16, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_PageViewToolBar[] = {
+    "PageViewToolBar\0\0toolID\0toolSelected(int)\0"
+    "side\0orientationChanged(int)\0buttonID\0"
+    "buttonDoubleClicked(int)\0slotAnimate()\0"
+    "slotButtonClicked()\0"
+};
+
+void PageViewToolBar::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        PageViewToolBar *_t = static_cast<PageViewToolBar *>(_o);
+        switch (_id) {
+        case 0: _t->toolSelected((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 1: _t->orientationChanged((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 2: _t->buttonDoubleClicked((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 3: _t->slotAnimate(); break;
+        case 4: _t->slotButtonClicked(); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData PageViewToolBar::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject PageViewToolBar::staticMetaObject = {
+    { &QWidget::staticMetaObject, qt_meta_stringdata_PageViewToolBar,
+      qt_meta_data_PageViewToolBar, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &PageViewToolBar::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *PageViewToolBar::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *PageViewToolBar::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_PageViewToolBar))
+        return static_cast<void*>(const_cast< PageViewToolBar*>(this));
+    return QWidget::qt_metacast(_clname);
+}
+
+int PageViewToolBar::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QWidget::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 5)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 5;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void PageViewToolBar::toolSelected(int _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 0, _a);
+}
+
+// SIGNAL 1
+void PageViewToolBar::orientationChanged(int _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 1, _a);
+}
+
+// SIGNAL 2
+void PageViewToolBar::buttonDoubleClicked(int _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 2, _a);
+}
+QT_END_MOC_NAMESPACE

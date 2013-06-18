@@ -1,0 +1,297 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'pageview.h'
+**
+** Created: Mon Jun 17 18:33:54 2013
+**      by: The Qt Meta Object Compiler version 63 (Qt 4.8.4)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../ui/pageview.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'pageview.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.4. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_PageView[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      62,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       5,       // signalCount
+
+ // signals: signature, parameters, type, tag, flags
+      10,    9,    9,    9, 0x05,
+      29,   27,    9,    9, 0x05,
+      68,    9,    9,    9, 0x05,
+      91,    9,    9,    9, 0x05,
+     117,    9,    9,    9, 0x05,
+
+ // slots: signature, parameters, type, tag, flags
+     147,  130,    9,    9, 0x0a,
+     181,  173,    9,    9, 0x2a,
+     203,  130,    9,    9, 0x0a,
+     230,  173,    9,    9, 0x2a,
+     253,  130,    9,    9, 0x0a,
+     281,  173,    9,    9, 0x2a,
+     305,    9,    9,    9, 0x0a,
+     325,    9,    9,    9, 0x0a,
+     346,    9,    9,    9, 0x0a,
+     380,  358,    9,    9, 0x0a,
+     437,  426,    9,    9, 0x08,
+     473,    9,    9,    9, 0x08,
+     493,    9,    9,    9, 0x08,
+     523,  514,    9,    9, 0x08,
+     554,    9,    9,    9, 0x28,
+     582,    9,    9,    9, 0x08,
+     601,    9,    9,    9, 0x08,
+     617,    9,    9,    9, 0x08,
+     634,    9,    9,    9, 0x08,
+     652,    9,    9,    9, 0x08,
+     676,    9,    9,    9, 0x08,
+     706,    9,    9,    9, 0x08,
+     734,    9,    9,    9, 0x08,
+     745,    9,    9,    9, 0x08,
+     758,    9,    9,    9, 0x08,
+     772,    9,    9,    9, 0x08,
+     800,    9,    9,    9, 0x08,
+     834,  827,    9,    9, 0x08,
+     857,    9,    9,    9, 0x08,
+     885,    9,    9,    9, 0x08,
+     906,    9,    9,    9, 0x08,
+     925,    9,    9,    9, 0x08,
+     946,    9,    9,    9, 0x08,
+     971,    9,    9,    9, 0x08,
+     997,    9,    9,    9, 0x08,
+    1023,    9,    9,    9, 0x08,
+    1042,    9,    9,    9, 0x08,
+    1074, 1063,    9,    9, 0x08,
+    1093,    9,    9,    9, 0x28,
+    1108, 1063,    9,    9, 0x08,
+    1129,    9,    9,    9, 0x28,
+    1146,    9,    9,    9, 0x08,
+    1168,    9,    9,    9, 0x08,
+    1197,    9,    9,    9, 0x08,
+    1218,    9,    9,    9, 0x08,
+    1237,    9,    9,    9, 0x08,
+    1266,    9,    9,    9, 0x08,
+    1295, 1284,    9,    9, 0x08,
+    1316,    9,    9,    9, 0x08,
+    1334,    9,    9,    9, 0x08,
+    1354,    9,    9,    9, 0x08,
+    1377,    9,    9,    9, 0x08,
+    1394,  827,    9,    9, 0x08,
+    1424, 1422,    9,    9, 0x08,
+    1465, 1458,    9,    9, 0x08,
+    1505,  827,    9,    9, 0x08,
+    1556,  827,    9,    9, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_PageView[] = {
+    "PageView\0\0urlDropped(KUrl)\0,\0"
+    "rightClick(const Okular::Page*,QPoint)\0"
+    "mouseBackButtonClick()\0mouseForwardButtonClick()\0"
+    "escPressed()\0message,duration\0"
+    "errorMessage(QString,int)\0message\0"
+    "errorMessage(QString)\0noticeMessage(QString,int)\0"
+    "noticeMessage(QString)\0"
+    "warningMessage(QString,int)\0"
+    "warningMessage(QString)\0copyTextSelection()\0"
+    "copyPropsSelection()\0selectAll()\0"
+    "annotation,pageNumber\0"
+    "openAnnotationWindow(Okular::Annotation*,int)\0"
+    "smoothMove\0slotRealNotifyViewportChanged(bool)\0"
+    "slotRelayoutPages()\0delayedResizeEvent()\0"
+    "newValue\0slotRequestVisiblePixmaps(int)\0"
+    "slotRequestVisiblePixmaps()\0"
+    "slotMoveViewport()\0slotAutoScoll()\0"
+    "slotDragScroll()\0slotShowWelcome()\0"
+    "slotShowSizeAllCursor()\0"
+    "slotHandleWebShortcutAction()\0"
+    "slotConfigureWebShortcuts()\0slotZoom()\0"
+    "slotZoomIn()\0slotZoomOut()\0"
+    "slotFitToWidthToggled(bool)\0"
+    "slotFitToPageToggled(bool)\0action\0"
+    "slotViewMode(QAction*)\0"
+    "slotContinuousToggled(bool)\0"
+    "slotSetMouseNormal()\0slotSetMouseZoom()\0"
+    "slotSetMouseSelect()\0slotSetMouseTextSelect()\0"
+    "slotSetMouseTableSelect()\0"
+    "slotToggleAnnotator(bool)\0slotAutoScrollUp()\0"
+    "slotAutoScrollDown()\0singleStep\0"
+    "slotScrollUp(bool)\0slotScrollUp()\0"
+    "slotScrollDown(bool)\0slotScrollDown()\0"
+    "slotRotateClockwise()\0"
+    "slotRotateCounterClockwise()\0"
+    "slotRotateOriginal()\0slotPageSizes(int)\0"
+    "slotTrimMarginsToggled(bool)\0"
+    "slotToggleForms()\0pageNumber\0"
+    "slotFormChanged(int)\0slotRefreshPage()\0"
+    "slotSpeakDocument()\0slotSpeakCurrentPage()\0"
+    "slotStopSpeaks()\0slotAction(Okular::Action*)\0"
+    "e\0externalKeyPressEvent(QKeyEvent*)\0"
+    "window\0slotAnnotationWindowDestroyed(QObject*)\0"
+    "slotProcessMovieAction(const Okular::MovieAction*)\0"
+    "slotProcessRenditionAction(const Okular::RenditionAction*)\0"
+};
+
+void PageView::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        PageView *_t = static_cast<PageView *>(_o);
+        switch (_id) {
+        case 0: _t->urlDropped((*reinterpret_cast< const KUrl(*)>(_a[1]))); break;
+        case 1: _t->rightClick((*reinterpret_cast< const Okular::Page*(*)>(_a[1])),(*reinterpret_cast< const QPoint(*)>(_a[2]))); break;
+        case 2: _t->mouseBackButtonClick(); break;
+        case 3: _t->mouseForwardButtonClick(); break;
+        case 4: _t->escPressed(); break;
+        case 5: _t->errorMessage((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
+        case 6: _t->errorMessage((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 7: _t->noticeMessage((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
+        case 8: _t->noticeMessage((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 9: _t->warningMessage((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
+        case 10: _t->warningMessage((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 11: _t->copyTextSelection(); break;
+        case 12: _t->copyPropsSelection(); break;
+        case 13: _t->selectAll(); break;
+        case 14: _t->openAnnotationWindow((*reinterpret_cast< Okular::Annotation*(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
+        case 15: _t->slotRealNotifyViewportChanged((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 16: _t->slotRelayoutPages(); break;
+        case 17: _t->delayedResizeEvent(); break;
+        case 18: _t->slotRequestVisiblePixmaps((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 19: _t->slotRequestVisiblePixmaps(); break;
+        case 20: _t->slotMoveViewport(); break;
+        case 21: _t->slotAutoScoll(); break;
+        case 22: _t->slotDragScroll(); break;
+        case 23: _t->slotShowWelcome(); break;
+        case 24: _t->slotShowSizeAllCursor(); break;
+        case 25: _t->slotHandleWebShortcutAction(); break;
+        case 26: _t->slotConfigureWebShortcuts(); break;
+        case 27: _t->slotZoom(); break;
+        case 28: _t->slotZoomIn(); break;
+        case 29: _t->slotZoomOut(); break;
+        case 30: _t->slotFitToWidthToggled((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 31: _t->slotFitToPageToggled((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 32: _t->slotViewMode((*reinterpret_cast< QAction*(*)>(_a[1]))); break;
+        case 33: _t->slotContinuousToggled((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 34: _t->slotSetMouseNormal(); break;
+        case 35: _t->slotSetMouseZoom(); break;
+        case 36: _t->slotSetMouseSelect(); break;
+        case 37: _t->slotSetMouseTextSelect(); break;
+        case 38: _t->slotSetMouseTableSelect(); break;
+        case 39: _t->slotToggleAnnotator((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 40: _t->slotAutoScrollUp(); break;
+        case 41: _t->slotAutoScrollDown(); break;
+        case 42: _t->slotScrollUp((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 43: _t->slotScrollUp(); break;
+        case 44: _t->slotScrollDown((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 45: _t->slotScrollDown(); break;
+        case 46: _t->slotRotateClockwise(); break;
+        case 47: _t->slotRotateCounterClockwise(); break;
+        case 48: _t->slotRotateOriginal(); break;
+        case 49: _t->slotPageSizes((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 50: _t->slotTrimMarginsToggled((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 51: _t->slotToggleForms(); break;
+        case 52: _t->slotFormChanged((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 53: _t->slotRefreshPage(); break;
+        case 54: _t->slotSpeakDocument(); break;
+        case 55: _t->slotSpeakCurrentPage(); break;
+        case 56: _t->slotStopSpeaks(); break;
+        case 57: _t->slotAction((*reinterpret_cast< Okular::Action*(*)>(_a[1]))); break;
+        case 58: _t->externalKeyPressEvent((*reinterpret_cast< QKeyEvent*(*)>(_a[1]))); break;
+        case 59: _t->slotAnnotationWindowDestroyed((*reinterpret_cast< QObject*(*)>(_a[1]))); break;
+        case 60: _t->slotProcessMovieAction((*reinterpret_cast< const Okular::MovieAction*(*)>(_a[1]))); break;
+        case 61: _t->slotProcessRenditionAction((*reinterpret_cast< const Okular::RenditionAction*(*)>(_a[1]))); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData PageView::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject PageView::staticMetaObject = {
+    { &QAbstractScrollArea::staticMetaObject, qt_meta_stringdata_PageView,
+      qt_meta_data_PageView, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &PageView::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *PageView::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *PageView::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_PageView))
+        return static_cast<void*>(const_cast< PageView*>(this));
+    if (!strcmp(_clname, "Okular::DocumentObserver"))
+        return static_cast< Okular::DocumentObserver*>(const_cast< PageView*>(this));
+    if (!strcmp(_clname, "Okular::View"))
+        return static_cast< Okular::View*>(const_cast< PageView*>(this));
+    return QAbstractScrollArea::qt_metacast(_clname);
+}
+
+int PageView::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QAbstractScrollArea::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 62)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 62;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void PageView::urlDropped(const KUrl & _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 0, _a);
+}
+
+// SIGNAL 1
+void PageView::rightClick(const Okular::Page * _t1, const QPoint & _t2)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    QMetaObject::activate(this, &staticMetaObject, 1, _a);
+}
+
+// SIGNAL 2
+void PageView::mouseBackButtonClick()
+{
+    QMetaObject::activate(this, &staticMetaObject, 2, 0);
+}
+
+// SIGNAL 3
+void PageView::mouseForwardButtonClick()
+{
+    QMetaObject::activate(this, &staticMetaObject, 3, 0);
+}
+
+// SIGNAL 4
+void PageView::escPressed()
+{
+    QMetaObject::activate(this, &staticMetaObject, 4, 0);
+}
+QT_END_MOC_NAMESPACE

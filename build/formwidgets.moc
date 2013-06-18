@@ -1,0 +1,856 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'formwidgets.h'
+**
+** Created: Sat Jun 8 19:29:15 2013
+**      by: The Qt Meta Object Compiler version 63 (Qt 4.8.4)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../ui/formwidgets.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'formwidgets.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.4. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_FormWidgetsController[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      15,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+      13,       // signalCount
+
+ // signals: signature, parameters, type, tag, flags
+      34,   23,   22,   22, 0x05,
+      47,   22,   22,   22, 0x05,
+      61,   22,   22,   22, 0x05,
+      89,   75,   22,   22, 0x05,
+     124,  110,   22,   22, 0x05,
+     214,  145,   22,   22, 0x05,
+     331,  286,   22,   22, 0x05,
+     428,  401,   22,   22, 0x05,
+     517,  493,   22,   22, 0x05,
+     649,  584,   22,   22, 0x05,
+     765,  724,   22,   22, 0x05,
+     877,  838,   22,   22, 0x05,
+     960,  953,   22,   22, 0x05,
+
+ // slots: signature, parameters, type, tag, flags
+     991,  984,   22,   22, 0x08,
+    1050, 1027,   22,   22, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_FormWidgetsController[] = {
+    "FormWidgetsController\0\0pageNumber\0"
+    "changed(int)\0requestUndo()\0requestRedo()\0"
+    "undoAvailable\0canUndoChanged(bool)\0"
+    "redoAvailable\0canRedoChanged(bool)\0"
+    "pageNumber,form,newContents,newCursorPos,prevCursorPos,prevAnchorPos\0"
+    "formTextChangedByWidget(int,Okular::FormFieldText*,QString,int,int,int"
+    ")\0"
+    "pageNumber,form,contents,cursorPos,anchorPos\0"
+    "formTextChangedByUndoRedo(int,Okular::FormFieldText*,QString,int,int)\0"
+    "pageNumber,form,newChoices\0"
+    "formListChangedByWidget(int,Okular::FormFieldChoice*,QList<int>)\0"
+    "pageNumber,form,choices\0"
+    "formListChangedByUndoRedo(int,Okular::FormFieldChoice*,QList<int>)\0"
+    "pageNumber,form,newText,newCursorPos,prevCursorPos,prevAnchorPos\0"
+    "formComboChangedByWidget(int,Okular::FormFieldChoice*,QString,int,int,"
+    "int)\0"
+    "pageNumber,form,text,cursorPos,anchorPos\0"
+    "formComboChangedByUndoRedo(int,Okular::FormFieldChoice*,QString,int,in"
+    "t)\0"
+    "pageNumber,formButtons,newButtonStates\0"
+    "formButtonsChangedByWidget(int,QList<Okular::FormFieldButton*>,QList<b"
+    "ool>)\0"
+    "action\0action(Okular::Action*)\0button\0"
+    "slotButtonClicked(QAbstractButton*)\0"
+    "pageNumber,formButtons\0"
+    "slotFormButtonsChangedByUndoRedo(int,QList<Okular::FormFieldButton*>)\0"
+};
+
+void FormWidgetsController::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        FormWidgetsController *_t = static_cast<FormWidgetsController *>(_o);
+        switch (_id) {
+        case 0: _t->changed((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 1: _t->requestUndo(); break;
+        case 2: _t->requestRedo(); break;
+        case 3: _t->canUndoChanged((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 4: _t->canRedoChanged((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 5: _t->formTextChangedByWidget((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< Okular::FormFieldText*(*)>(_a[2])),(*reinterpret_cast< const QString(*)>(_a[3])),(*reinterpret_cast< int(*)>(_a[4])),(*reinterpret_cast< int(*)>(_a[5])),(*reinterpret_cast< int(*)>(_a[6]))); break;
+        case 6: _t->formTextChangedByUndoRedo((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< Okular::FormFieldText*(*)>(_a[2])),(*reinterpret_cast< const QString(*)>(_a[3])),(*reinterpret_cast< int(*)>(_a[4])),(*reinterpret_cast< int(*)>(_a[5]))); break;
+        case 7: _t->formListChangedByWidget((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< Okular::FormFieldChoice*(*)>(_a[2])),(*reinterpret_cast< const QList<int>(*)>(_a[3]))); break;
+        case 8: _t->formListChangedByUndoRedo((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< Okular::FormFieldChoice*(*)>(_a[2])),(*reinterpret_cast< const QList<int>(*)>(_a[3]))); break;
+        case 9: _t->formComboChangedByWidget((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< Okular::FormFieldChoice*(*)>(_a[2])),(*reinterpret_cast< const QString(*)>(_a[3])),(*reinterpret_cast< int(*)>(_a[4])),(*reinterpret_cast< int(*)>(_a[5])),(*reinterpret_cast< int(*)>(_a[6]))); break;
+        case 10: _t->formComboChangedByUndoRedo((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< Okular::FormFieldChoice*(*)>(_a[2])),(*reinterpret_cast< const QString(*)>(_a[3])),(*reinterpret_cast< int(*)>(_a[4])),(*reinterpret_cast< int(*)>(_a[5]))); break;
+        case 11: _t->formButtonsChangedByWidget((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< const QList<Okular::FormFieldButton*>(*)>(_a[2])),(*reinterpret_cast< const QList<bool>(*)>(_a[3]))); break;
+        case 12: _t->action((*reinterpret_cast< Okular::Action*(*)>(_a[1]))); break;
+        case 13: _t->slotButtonClicked((*reinterpret_cast< QAbstractButton*(*)>(_a[1]))); break;
+        case 14: _t->slotFormButtonsChangedByUndoRedo((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< const QList<Okular::FormFieldButton*>(*)>(_a[2]))); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData FormWidgetsController::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject FormWidgetsController::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_FormWidgetsController,
+      qt_meta_data_FormWidgetsController, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &FormWidgetsController::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *FormWidgetsController::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *FormWidgetsController::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_FormWidgetsController))
+        return static_cast<void*>(const_cast< FormWidgetsController*>(this));
+    return QObject::qt_metacast(_clname);
+}
+
+int FormWidgetsController::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 15)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 15;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void FormWidgetsController::changed(int _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 0, _a);
+}
+
+// SIGNAL 1
+void FormWidgetsController::requestUndo()
+{
+    QMetaObject::activate(this, &staticMetaObject, 1, 0);
+}
+
+// SIGNAL 2
+void FormWidgetsController::requestRedo()
+{
+    QMetaObject::activate(this, &staticMetaObject, 2, 0);
+}
+
+// SIGNAL 3
+void FormWidgetsController::canUndoChanged(bool _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 3, _a);
+}
+
+// SIGNAL 4
+void FormWidgetsController::canRedoChanged(bool _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 4, _a);
+}
+
+// SIGNAL 5
+void FormWidgetsController::formTextChangedByWidget(int _t1, Okular::FormFieldText * _t2, const QString & _t3, int _t4, int _t5, int _t6)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)), const_cast<void*>(reinterpret_cast<const void*>(&_t5)), const_cast<void*>(reinterpret_cast<const void*>(&_t6)) };
+    QMetaObject::activate(this, &staticMetaObject, 5, _a);
+}
+
+// SIGNAL 6
+void FormWidgetsController::formTextChangedByUndoRedo(int _t1, Okular::FormFieldText * _t2, const QString & _t3, int _t4, int _t5)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)), const_cast<void*>(reinterpret_cast<const void*>(&_t5)) };
+    QMetaObject::activate(this, &staticMetaObject, 6, _a);
+}
+
+// SIGNAL 7
+void FormWidgetsController::formListChangedByWidget(int _t1, Okular::FormFieldChoice * _t2, const QList<int> & _t3)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
+    QMetaObject::activate(this, &staticMetaObject, 7, _a);
+}
+
+// SIGNAL 8
+void FormWidgetsController::formListChangedByUndoRedo(int _t1, Okular::FormFieldChoice * _t2, const QList<int> & _t3)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
+    QMetaObject::activate(this, &staticMetaObject, 8, _a);
+}
+
+// SIGNAL 9
+void FormWidgetsController::formComboChangedByWidget(int _t1, Okular::FormFieldChoice * _t2, const QString & _t3, int _t4, int _t5, int _t6)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)), const_cast<void*>(reinterpret_cast<const void*>(&_t5)), const_cast<void*>(reinterpret_cast<const void*>(&_t6)) };
+    QMetaObject::activate(this, &staticMetaObject, 9, _a);
+}
+
+// SIGNAL 10
+void FormWidgetsController::formComboChangedByUndoRedo(int _t1, Okular::FormFieldChoice * _t2, const QString & _t3, int _t4, int _t5)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)), const_cast<void*>(reinterpret_cast<const void*>(&_t5)) };
+    QMetaObject::activate(this, &staticMetaObject, 10, _a);
+}
+
+// SIGNAL 11
+void FormWidgetsController::formButtonsChangedByWidget(int _t1, const QList<Okular::FormFieldButton*> & _t2, const QList<bool> & _t3)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
+    QMetaObject::activate(this, &staticMetaObject, 11, _a);
+}
+
+// SIGNAL 12
+void FormWidgetsController::action(Okular::Action * _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 12, _a);
+}
+static const uint qt_meta_data_PushButtonEdit[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       1,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: signature, parameters, type, tag, flags
+      16,   15,   15,   15, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_PushButtonEdit[] = {
+    "PushButtonEdit\0\0slotClicked()\0"
+};
+
+void PushButtonEdit::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        PushButtonEdit *_t = static_cast<PushButtonEdit *>(_o);
+        switch (_id) {
+        case 0: _t->slotClicked(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData PushButtonEdit::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject PushButtonEdit::staticMetaObject = {
+    { &QPushButton::staticMetaObject, qt_meta_stringdata_PushButtonEdit,
+      qt_meta_data_PushButtonEdit, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &PushButtonEdit::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *PushButtonEdit::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *PushButtonEdit::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_PushButtonEdit))
+        return static_cast<void*>(const_cast< PushButtonEdit*>(this));
+    if (!strcmp(_clname, "FormWidgetIface"))
+        return static_cast< FormWidgetIface*>(const_cast< PushButtonEdit*>(this));
+    return QPushButton::qt_metacast(_clname);
+}
+
+int PushButtonEdit::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QPushButton::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 1)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 1;
+    }
+    return _id;
+}
+static const uint qt_meta_data_CheckBoxEdit[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       1,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: signature, parameters, type, tag, flags
+      20,   14,   13,   13, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_CheckBoxEdit[] = {
+    "CheckBoxEdit\0\0state\0slotStateChanged(int)\0"
+};
+
+void CheckBoxEdit::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        CheckBoxEdit *_t = static_cast<CheckBoxEdit *>(_o);
+        switch (_id) {
+        case 0: _t->slotStateChanged((*reinterpret_cast< int(*)>(_a[1]))); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData CheckBoxEdit::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject CheckBoxEdit::staticMetaObject = {
+    { &QCheckBox::staticMetaObject, qt_meta_stringdata_CheckBoxEdit,
+      qt_meta_data_CheckBoxEdit, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &CheckBoxEdit::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *CheckBoxEdit::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *CheckBoxEdit::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_CheckBoxEdit))
+        return static_cast<void*>(const_cast< CheckBoxEdit*>(this));
+    if (!strcmp(_clname, "FormWidgetIface"))
+        return static_cast< FormWidgetIface*>(const_cast< CheckBoxEdit*>(this));
+    return QCheckBox::qt_metacast(_clname);
+}
+
+int CheckBoxEdit::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QCheckBox::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 1)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 1;
+    }
+    return _id;
+}
+static const uint qt_meta_data_RadioButtonEdit[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_RadioButtonEdit[] = {
+    "RadioButtonEdit\0"
+};
+
+void RadioButtonEdit::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData RadioButtonEdit::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject RadioButtonEdit::staticMetaObject = {
+    { &QRadioButton::staticMetaObject, qt_meta_stringdata_RadioButtonEdit,
+      qt_meta_data_RadioButtonEdit, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &RadioButtonEdit::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *RadioButtonEdit::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *RadioButtonEdit::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_RadioButtonEdit))
+        return static_cast<void*>(const_cast< RadioButtonEdit*>(this));
+    if (!strcmp(_clname, "FormWidgetIface"))
+        return static_cast< FormWidgetIface*>(const_cast< RadioButtonEdit*>(this));
+    return QRadioButton::qt_metacast(_clname);
+}
+
+int RadioButtonEdit::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QRadioButton::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_FormLineEdit[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       2,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: signature, parameters, type, tag, flags
+      63,   14,   13,   13, 0x0a,
+     139,   13,   13,   13, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_FormLineEdit[] = {
+    "FormLineEdit\0\0"
+    "pageNumber,textForm,contents,cursorPos,anchorPos\0"
+    "slotHandleTextChangedByUndoRedo(int,Okular::FormFieldText*,QString,int"
+    ",int)\0"
+    "slotChanged()\0"
+};
+
+void FormLineEdit::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        FormLineEdit *_t = static_cast<FormLineEdit *>(_o);
+        switch (_id) {
+        case 0: _t->slotHandleTextChangedByUndoRedo((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< Okular::FormFieldText*(*)>(_a[2])),(*reinterpret_cast< const QString(*)>(_a[3])),(*reinterpret_cast< int(*)>(_a[4])),(*reinterpret_cast< int(*)>(_a[5]))); break;
+        case 1: _t->slotChanged(); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData FormLineEdit::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject FormLineEdit::staticMetaObject = {
+    { &QLineEdit::staticMetaObject, qt_meta_stringdata_FormLineEdit,
+      qt_meta_data_FormLineEdit, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &FormLineEdit::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *FormLineEdit::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *FormLineEdit::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_FormLineEdit))
+        return static_cast<void*>(const_cast< FormLineEdit*>(this));
+    if (!strcmp(_clname, "FormWidgetIface"))
+        return static_cast< FormWidgetIface*>(const_cast< FormLineEdit*>(this));
+    return QLineEdit::qt_metacast(_clname);
+}
+
+int FormLineEdit::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QLineEdit::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 2)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 2;
+    }
+    return _id;
+}
+static const uint qt_meta_data_TextAreaEdit[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       3,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: signature, parameters, type, tag, flags
+      63,   14,   13,   13, 0x0a,
+     144,  139,   13,   13, 0x0a,
+     187,   13,   13,   13, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_TextAreaEdit[] = {
+    "TextAreaEdit\0\0"
+    "pageNumber,textForm,contents,cursorPos,anchorPos\0"
+    "slotHandleTextChangedByUndoRedo(int,Okular::FormFieldText*,QString,int"
+    ",int)\0"
+    "menu\0slotUpdateUndoAndRedoInContextMenu(QMenu*)\0"
+    "slotChanged()\0"
+};
+
+void TextAreaEdit::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        TextAreaEdit *_t = static_cast<TextAreaEdit *>(_o);
+        switch (_id) {
+        case 0: _t->slotHandleTextChangedByUndoRedo((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< Okular::FormFieldText*(*)>(_a[2])),(*reinterpret_cast< const QString(*)>(_a[3])),(*reinterpret_cast< int(*)>(_a[4])),(*reinterpret_cast< int(*)>(_a[5]))); break;
+        case 1: _t->slotUpdateUndoAndRedoInContextMenu((*reinterpret_cast< QMenu*(*)>(_a[1]))); break;
+        case 2: _t->slotChanged(); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData TextAreaEdit::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject TextAreaEdit::staticMetaObject = {
+    { &KTextEdit::staticMetaObject, qt_meta_stringdata_TextAreaEdit,
+      qt_meta_data_TextAreaEdit, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &TextAreaEdit::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *TextAreaEdit::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *TextAreaEdit::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_TextAreaEdit))
+        return static_cast<void*>(const_cast< TextAreaEdit*>(this));
+    if (!strcmp(_clname, "FormWidgetIface"))
+        return static_cast< FormWidgetIface*>(const_cast< TextAreaEdit*>(this));
+    return KTextEdit::qt_metacast(_clname);
+}
+
+int TextAreaEdit::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = KTextEdit::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 3)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 3;
+    }
+    return _id;
+}
+static const uint qt_meta_data_FileEdit[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       2,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: signature, parameters, type, tag, flags
+      10,    9,    9,    9, 0x08,
+      69,   24,    9,    9, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_FileEdit[] = {
+    "FileEdit\0\0slotChanged()\0"
+    "pageNumber,form,contents,cursorPos,anchorPos\0"
+    "slotHandleFileChangedByUndoRedo(int,Okular::FormFieldText*,QString,int"
+    ",int)\0"
+};
+
+void FileEdit::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        FileEdit *_t = static_cast<FileEdit *>(_o);
+        switch (_id) {
+        case 0: _t->slotChanged(); break;
+        case 1: _t->slotHandleFileChangedByUndoRedo((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< Okular::FormFieldText*(*)>(_a[2])),(*reinterpret_cast< const QString(*)>(_a[3])),(*reinterpret_cast< int(*)>(_a[4])),(*reinterpret_cast< int(*)>(_a[5]))); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData FileEdit::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject FileEdit::staticMetaObject = {
+    { &KUrlRequester::staticMetaObject, qt_meta_stringdata_FileEdit,
+      qt_meta_data_FileEdit, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &FileEdit::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *FileEdit::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *FileEdit::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_FileEdit))
+        return static_cast<void*>(const_cast< FileEdit*>(this));
+    if (!strcmp(_clname, "FormWidgetIface"))
+        return static_cast< FormWidgetIface*>(const_cast< FileEdit*>(this));
+    return KUrlRequester::qt_metacast(_clname);
+}
+
+int FileEdit::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = KUrlRequester::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 2)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 2;
+    }
+    return _id;
+}
+static const uint qt_meta_data_ListEdit[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       2,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: signature, parameters, type, tag, flags
+      10,    9,    9,    9, 0x08,
+      61,   33,    9,    9, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_ListEdit[] = {
+    "ListEdit\0\0slotSelectionChanged()\0"
+    "pageNumber,listForm,choices\0"
+    "slotHandleFormListChangedByUndoRedo(int,Okular::FormFieldChoice*,QList"
+    "<int>)\0"
+};
+
+void ListEdit::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        ListEdit *_t = static_cast<ListEdit *>(_o);
+        switch (_id) {
+        case 0: _t->slotSelectionChanged(); break;
+        case 1: _t->slotHandleFormListChangedByUndoRedo((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< Okular::FormFieldChoice*(*)>(_a[2])),(*reinterpret_cast< const QList<int>(*)>(_a[3]))); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData ListEdit::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject ListEdit::staticMetaObject = {
+    { &QListWidget::staticMetaObject, qt_meta_stringdata_ListEdit,
+      qt_meta_data_ListEdit, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &ListEdit::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *ListEdit::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *ListEdit::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_ListEdit))
+        return static_cast<void*>(const_cast< ListEdit*>(this));
+    if (!strcmp(_clname, "FormWidgetIface"))
+        return static_cast< FormWidgetIface*>(const_cast< ListEdit*>(this));
+    return QListWidget::qt_metacast(_clname);
+}
+
+int ListEdit::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QListWidget::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 2)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 2;
+    }
+    return _id;
+}
+static const uint qt_meta_data_ComboEdit[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       2,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: signature, parameters, type, tag, flags
+      11,   10,   10,   10, 0x08,
+      76,   30,   10,   10, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_ComboEdit[] = {
+    "ComboEdit\0\0slotValueChanged()\0"
+    "pageNumber,comboForm,text,cursorPos,anchorPos\0"
+    "slotHandleFormComboChangedByUndoRedo(int,Okular::FormFieldChoice*,QStr"
+    "ing,int,int)\0"
+};
+
+void ComboEdit::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        ComboEdit *_t = static_cast<ComboEdit *>(_o);
+        switch (_id) {
+        case 0: _t->slotValueChanged(); break;
+        case 1: _t->slotHandleFormComboChangedByUndoRedo((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< Okular::FormFieldChoice*(*)>(_a[2])),(*reinterpret_cast< const QString(*)>(_a[3])),(*reinterpret_cast< int(*)>(_a[4])),(*reinterpret_cast< int(*)>(_a[5]))); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData ComboEdit::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject ComboEdit::staticMetaObject = {
+    { &QComboBox::staticMetaObject, qt_meta_stringdata_ComboEdit,
+      qt_meta_data_ComboEdit, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &ComboEdit::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *ComboEdit::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *ComboEdit::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_ComboEdit))
+        return static_cast<void*>(const_cast< ComboEdit*>(this));
+    if (!strcmp(_clname, "FormWidgetIface"))
+        return static_cast< FormWidgetIface*>(const_cast< ComboEdit*>(this));
+    return QComboBox::qt_metacast(_clname);
+}
+
+int ComboEdit::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QComboBox::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 2)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 2;
+    }
+    return _id;
+}
+QT_END_MOC_NAMESPACE

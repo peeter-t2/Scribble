@@ -1,0 +1,136 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'dviRenderer.h'
+**
+** Created: Mon Jun 10 00:57:45 2013
+**      by: The Qt Meta Object Compiler version 63 (Qt 4.8.4)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../../../generators/dvi/dviRenderer.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'dviRenderer.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.4. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_dviRenderer[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      14,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: signature, parameters, type, tag, flags
+      47,   13,   12,   12, 0x0a,
+     131,  109,   12,   12, 0x2a,
+     185,  171,   12,   12, 0x2a,
+     221,  215,   12,   12, 0x2a,
+     239,   12,   12,   12, 0x2a,
+     250,   12,   12,   12, 0x0a,
+     284,  262,   12,   12, 0x0a,
+     330,   12,   12,   12, 0x0a,
+     348,   12,   12,   12, 0x0a,
+     370,  365,   12,   12, 0x0a,
+     408,  365,   12,   12, 0x0a,
+     460,  365,  445,   12, 0x0a,
+     504,   12,  483,   12, 0x0a,
+     522,   12,   12,   12, 0x0a,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_dviRenderer[] = {
+    "dviRenderer\0\0fname,options,printer,orientation\0"
+    "exportPS(QString,QStringList,QPrinter*,QPrinter::Orientation)\0"
+    "fname,options,printer\0"
+    "exportPS(QString,QStringList,QPrinter*)\0"
+    "fname,options\0exportPS(QString,QStringList)\0"
+    "fname\0exportPS(QString)\0exportPS()\0"
+    "exportPDF()\0linkText,point,widget\0"
+    "handleSRCLink(QString,QPoint,DocumentWidget*)\0"
+    "embedPostScript()\0clearStatusBar()\0"
+    "page\0drawPage(RenderedDocumentPagePixmap*)\0"
+    "getText(RenderedDocumentPagePixmap*)\0"
+    "SimplePageSize\0sizeOfPage(PageNumber)\0"
+    "QVector<PreBookmark>\0getPrebookmarks()\0"
+    "sourceAnchors()\0"
+};
+
+void dviRenderer::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        dviRenderer *_t = static_cast<dviRenderer *>(_o);
+        switch (_id) {
+        case 0: _t->exportPS((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QStringList(*)>(_a[2])),(*reinterpret_cast< QPrinter*(*)>(_a[3])),(*reinterpret_cast< QPrinter::Orientation(*)>(_a[4]))); break;
+        case 1: _t->exportPS((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QStringList(*)>(_a[2])),(*reinterpret_cast< QPrinter*(*)>(_a[3]))); break;
+        case 2: _t->exportPS((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QStringList(*)>(_a[2]))); break;
+        case 3: _t->exportPS((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 4: _t->exportPS(); break;
+        case 5: _t->exportPDF(); break;
+        case 6: _t->handleSRCLink((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QPoint(*)>(_a[2])),(*reinterpret_cast< DocumentWidget*(*)>(_a[3]))); break;
+        case 7: _t->embedPostScript(); break;
+        case 8: _t->clearStatusBar(); break;
+        case 9: _t->drawPage((*reinterpret_cast< RenderedDocumentPagePixmap*(*)>(_a[1]))); break;
+        case 10: _t->getText((*reinterpret_cast< RenderedDocumentPagePixmap*(*)>(_a[1]))); break;
+        case 11: { SimplePageSize _r = _t->sizeOfPage((*reinterpret_cast< const PageNumber(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast< SimplePageSize*>(_a[0]) = _r; }  break;
+        case 12: { QVector<PreBookmark> _r = _t->getPrebookmarks();
+            if (_a[0]) *reinterpret_cast< QVector<PreBookmark>*>(_a[0]) = _r; }  break;
+        case 13: _t->sourceAnchors(); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData dviRenderer::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject dviRenderer::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_dviRenderer,
+      qt_meta_data_dviRenderer, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &dviRenderer::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *dviRenderer::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *dviRenderer::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_dviRenderer))
+        return static_cast<void*>(const_cast< dviRenderer*>(this));
+    if (!strcmp(_clname, "bigEndianByteReader"))
+        return static_cast< bigEndianByteReader*>(const_cast< dviRenderer*>(this));
+    return QObject::qt_metacast(_clname);
+}
+
+int dviRenderer::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 14)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 14;
+    }
+    return _id;
+}
+QT_END_MOC_NAMESPACE

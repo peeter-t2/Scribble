@@ -1,0 +1,247 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'pageitem.h'
+**
+** Created: Mon Jun 10 00:57:34 2013
+**      by: The Qt Meta Object Compiler version 63 (Qt 4.8.4)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../../../active/components/pageitem.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'pageitem.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.4. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_PageItem[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      17,   14, // methods
+       8,   99, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       7,       // signalCount
+
+ // signals: signature, parameters, type, tag, flags
+      10,    9,    9,    9, 0x05,
+      29,    9,    9,    9, 0x05,
+      52,    9,    9,    9, 0x05,
+      76,    9,    9,    9, 0x05,
+      94,    9,    9,    9, 0x05,
+     114,    9,    9,    9, 0x05,
+     134,    9,    9,    9, 0x05,
+
+ // slots: signature, parameters, type, tag, flags
+     153,    9,    9,    9, 0x08,
+     180,  169,    9,    9, 0x08,
+     204,    9,    9,    9, 0x08,
+     228,    9,    9,    9, 0x08,
+     246,    9,    9,    9, 0x08,
+
+ // methods: signature, parameters, type, tag, flags
+     273,  264,    9,    9, 0x02,
+     303,  264,  295,    9, 0x02,
+     333,  329,    9,    9, 0x02,
+     363,  329,    9,    9, 0x02,
+     396,  264,    9,    9, 0x02,
+
+ // properties: name, type, flags
+     438,  420, 0x0049510b,
+     462,  448, 0x0049510b,
+     475,  471, 0x02495103,
+     491,  486, 0x01095103,
+     498,  471, 0x02495001,
+     512,  471, 0x02495001,
+     527,  486, 0x01495103,
+     550,  538, 0x0b495001,
+
+ // properties: notify_signal_id
+       0,
+       3,
+       4,
+       0,
+       1,
+       2,
+       5,
+       6,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_PageItem[] = {
+    "PageItem\0\0flickableChanged()\0"
+    "implicitWidthChanged()\0implicitHeightChanged()\0"
+    "documentChanged()\0pageNumberChanged()\0"
+    "bookmarkedChanged()\0bookmarksChanged()\0"
+    "delayedRedraw()\0page,flags\0"
+    "pageHasChanged(int,int)\0checkBookmarksChanged()\0"
+    "contentXChanged()\0contentYChanged()\0"
+    "bookmark\0goToBookmark(QString)\0QPointF\0"
+    "bookmarkPosition(QString)\0x,y\0"
+    "setBookmarkAtPos(qreal,qreal)\0"
+    "removeBookmarkAtPos(qreal,qreal)\0"
+    "removeBookmark(QString)\0QDeclarativeItem*\0"
+    "flickable\0DocumentItem*\0document\0int\0"
+    "pageNumber\0bool\0smooth\0implicitWidth\0"
+    "implicitHeight\0bookmarked\0QStringList\0"
+    "bookmarks\0"
+};
+
+void PageItem::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        PageItem *_t = static_cast<PageItem *>(_o);
+        switch (_id) {
+        case 0: _t->flickableChanged(); break;
+        case 1: _t->implicitWidthChanged(); break;
+        case 2: _t->implicitHeightChanged(); break;
+        case 3: _t->documentChanged(); break;
+        case 4: _t->pageNumberChanged(); break;
+        case 5: _t->bookmarkedChanged(); break;
+        case 6: _t->bookmarksChanged(); break;
+        case 7: _t->delayedRedraw(); break;
+        case 8: _t->pageHasChanged((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
+        case 9: _t->checkBookmarksChanged(); break;
+        case 10: _t->contentXChanged(); break;
+        case 11: _t->contentYChanged(); break;
+        case 12: _t->goToBookmark((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 13: { QPointF _r = _t->bookmarkPosition((*reinterpret_cast< const QString(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast< QPointF*>(_a[0]) = _r; }  break;
+        case 14: _t->setBookmarkAtPos((*reinterpret_cast< qreal(*)>(_a[1])),(*reinterpret_cast< qreal(*)>(_a[2]))); break;
+        case 15: _t->removeBookmarkAtPos((*reinterpret_cast< qreal(*)>(_a[1])),(*reinterpret_cast< qreal(*)>(_a[2]))); break;
+        case 16: _t->removeBookmark((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData PageItem::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject PageItem::staticMetaObject = {
+    { &QDeclarativeItem::staticMetaObject, qt_meta_stringdata_PageItem,
+      qt_meta_data_PageItem, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &PageItem::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *PageItem::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *PageItem::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_PageItem))
+        return static_cast<void*>(const_cast< PageItem*>(this));
+    if (!strcmp(_clname, "Okular::View"))
+        return static_cast< Okular::View*>(const_cast< PageItem*>(this));
+    return QDeclarativeItem::qt_metacast(_clname);
+}
+
+int PageItem::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QDeclarativeItem::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 17)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 17;
+    }
+#ifndef QT_NO_PROPERTIES
+      else if (_c == QMetaObject::ReadProperty) {
+        void *_v = _a[0];
+        switch (_id) {
+        case 0: *reinterpret_cast< QDeclarativeItem**>(_v) = flickable(); break;
+        case 1: *reinterpret_cast< DocumentItem**>(_v) = document(); break;
+        case 2: *reinterpret_cast< int*>(_v) = pageNumber(); break;
+        case 3: *reinterpret_cast< bool*>(_v) = smooth(); break;
+        case 4: *reinterpret_cast< int*>(_v) = implicitWidth(); break;
+        case 5: *reinterpret_cast< int*>(_v) = implicitHeight(); break;
+        case 6: *reinterpret_cast< bool*>(_v) = isBookmarked(); break;
+        case 7: *reinterpret_cast< QStringList*>(_v) = bookmarks(); break;
+        }
+        _id -= 8;
+    } else if (_c == QMetaObject::WriteProperty) {
+        void *_v = _a[0];
+        switch (_id) {
+        case 0: setFlickable(*reinterpret_cast< QDeclarativeItem**>(_v)); break;
+        case 1: setDocument(*reinterpret_cast< DocumentItem**>(_v)); break;
+        case 2: setPageNumber(*reinterpret_cast< int*>(_v)); break;
+        case 3: setSmooth(*reinterpret_cast< bool*>(_v)); break;
+        case 6: setBookmarked(*reinterpret_cast< bool*>(_v)); break;
+        }
+        _id -= 8;
+    } else if (_c == QMetaObject::ResetProperty) {
+        _id -= 8;
+    } else if (_c == QMetaObject::QueryPropertyDesignable) {
+        _id -= 8;
+    } else if (_c == QMetaObject::QueryPropertyScriptable) {
+        _id -= 8;
+    } else if (_c == QMetaObject::QueryPropertyStored) {
+        _id -= 8;
+    } else if (_c == QMetaObject::QueryPropertyEditable) {
+        _id -= 8;
+    } else if (_c == QMetaObject::QueryPropertyUser) {
+        _id -= 8;
+    }
+#endif // QT_NO_PROPERTIES
+    return _id;
+}
+
+// SIGNAL 0
+void PageItem::flickableChanged()
+{
+    QMetaObject::activate(this, &staticMetaObject, 0, 0);
+}
+
+// SIGNAL 1
+void PageItem::implicitWidthChanged()
+{
+    QMetaObject::activate(this, &staticMetaObject, 1, 0);
+}
+
+// SIGNAL 2
+void PageItem::implicitHeightChanged()
+{
+    QMetaObject::activate(this, &staticMetaObject, 2, 0);
+}
+
+// SIGNAL 3
+void PageItem::documentChanged()
+{
+    QMetaObject::activate(this, &staticMetaObject, 3, 0);
+}
+
+// SIGNAL 4
+void PageItem::pageNumberChanged()
+{
+    QMetaObject::activate(this, &staticMetaObject, 4, 0);
+}
+
+// SIGNAL 5
+void PageItem::bookmarkedChanged()
+{
+    QMetaObject::activate(this, &staticMetaObject, 5, 0);
+}
+
+// SIGNAL 6
+void PageItem::bookmarksChanged()
+{
+    QMetaObject::activate(this, &staticMetaObject, 6, 0);
+}
+QT_END_MOC_NAMESPACE

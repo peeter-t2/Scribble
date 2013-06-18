@@ -1,0 +1,249 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'annotationproxymodels.h'
+**
+** Created: Sat Jun 8 19:29:16 2013
+**      by: The Qt Meta Object Compiler version 63 (Qt 4.8.4)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../ui/annotationproxymodels.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'annotationproxymodels.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.4. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_PageFilterProxyModel[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       2,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: signature, parameters, type, tag, flags
+      28,   22,   21,   21, 0x0a,
+      58,   53,   21,   21, 0x0a,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_PageFilterProxyModel[] = {
+    "PageFilterProxyModel\0\0value\0"
+    "groupByCurrentPage(bool)\0page\0"
+    "setCurrentPage(int)\0"
+};
+
+void PageFilterProxyModel::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        PageFilterProxyModel *_t = static_cast<PageFilterProxyModel *>(_o);
+        switch (_id) {
+        case 0: _t->groupByCurrentPage((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 1: _t->setCurrentPage((*reinterpret_cast< int(*)>(_a[1]))); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData PageFilterProxyModel::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject PageFilterProxyModel::staticMetaObject = {
+    { &QSortFilterProxyModel::staticMetaObject, qt_meta_stringdata_PageFilterProxyModel,
+      qt_meta_data_PageFilterProxyModel, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &PageFilterProxyModel::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *PageFilterProxyModel::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *PageFilterProxyModel::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_PageFilterProxyModel))
+        return static_cast<void*>(const_cast< PageFilterProxyModel*>(this));
+    return QSortFilterProxyModel::qt_metacast(_clname);
+}
+
+int PageFilterProxyModel::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QSortFilterProxyModel::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 2)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 2;
+    }
+    return _id;
+}
+static const uint qt_meta_data_PageGroupProxyModel[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       2,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: signature, parameters, type, tag, flags
+      27,   21,   20,   20, 0x0a,
+      45,   20,   20,   20, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_PageGroupProxyModel[] = {
+    "PageGroupProxyModel\0\0value\0groupByPage(bool)\0"
+    "rebuildIndexes()\0"
+};
+
+void PageGroupProxyModel::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        PageGroupProxyModel *_t = static_cast<PageGroupProxyModel *>(_o);
+        switch (_id) {
+        case 0: _t->groupByPage((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 1: _t->rebuildIndexes(); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData PageGroupProxyModel::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject PageGroupProxyModel::staticMetaObject = {
+    { &QAbstractProxyModel::staticMetaObject, qt_meta_stringdata_PageGroupProxyModel,
+      qt_meta_data_PageGroupProxyModel, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &PageGroupProxyModel::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *PageGroupProxyModel::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *PageGroupProxyModel::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_PageGroupProxyModel))
+        return static_cast<void*>(const_cast< PageGroupProxyModel*>(this));
+    return QAbstractProxyModel::qt_metacast(_clname);
+}
+
+int PageGroupProxyModel::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QAbstractProxyModel::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 2)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 2;
+    }
+    return _id;
+}
+static const uint qt_meta_data_AuthorGroupProxyModel[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       2,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: signature, parameters, type, tag, flags
+      29,   23,   22,   22, 0x0a,
+      49,   22,   22,   22, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_AuthorGroupProxyModel[] = {
+    "AuthorGroupProxyModel\0\0value\0"
+    "groupByAuthor(bool)\0rebuildIndexes()\0"
+};
+
+void AuthorGroupProxyModel::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        AuthorGroupProxyModel *_t = static_cast<AuthorGroupProxyModel *>(_o);
+        switch (_id) {
+        case 0: _t->groupByAuthor((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 1: _t->rebuildIndexes(); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData AuthorGroupProxyModel::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject AuthorGroupProxyModel::staticMetaObject = {
+    { &QAbstractProxyModel::staticMetaObject, qt_meta_stringdata_AuthorGroupProxyModel,
+      qt_meta_data_AuthorGroupProxyModel, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &AuthorGroupProxyModel::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *AuthorGroupProxyModel::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *AuthorGroupProxyModel::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_AuthorGroupProxyModel))
+        return static_cast<void*>(const_cast< AuthorGroupProxyModel*>(this));
+    return QAbstractProxyModel::qt_metacast(_clname);
+}
+
+int AuthorGroupProxyModel::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QAbstractProxyModel::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 2)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 2;
+    }
+    return _id;
+}
+QT_END_MOC_NAMESPACE

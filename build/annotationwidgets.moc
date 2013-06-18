@@ -1,0 +1,673 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'annotationwidgets.h'
+**
+** Created: Sat Jun 8 19:29:18 2013
+**      by: The Qt Meta Object Compiler version 63 (Qt 4.8.4)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../ui/annotationwidgets.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'annotationwidgets.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.4. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_PixmapPreviewSelector[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       2,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       1,       // signalCount
+
+ // signals: signature, parameters, type, tag, flags
+      23,   22,   22,   22, 0x05,
+
+ // slots: signature, parameters, type, tag, flags
+      49,   44,   22,   22, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_PixmapPreviewSelector[] = {
+    "PixmapPreviewSelector\0\0iconChanged(QString)\0"
+    "icon\0iconComboChanged(QString)\0"
+};
+
+void PixmapPreviewSelector::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        PixmapPreviewSelector *_t = static_cast<PixmapPreviewSelector *>(_o);
+        switch (_id) {
+        case 0: _t->iconChanged((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 1: _t->iconComboChanged((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData PixmapPreviewSelector::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject PixmapPreviewSelector::staticMetaObject = {
+    { &QWidget::staticMetaObject, qt_meta_stringdata_PixmapPreviewSelector,
+      qt_meta_data_PixmapPreviewSelector, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &PixmapPreviewSelector::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *PixmapPreviewSelector::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *PixmapPreviewSelector::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_PixmapPreviewSelector))
+        return static_cast<void*>(const_cast< PixmapPreviewSelector*>(this));
+    return QWidget::qt_metacast(_clname);
+}
+
+int PixmapPreviewSelector::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QWidget::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 2)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 2;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void PixmapPreviewSelector::iconChanged(const QString & _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 0, _a);
+}
+static const uint qt_meta_data_AnnotationWidget[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       1,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       1,       // signalCount
+
+ // signals: signature, parameters, type, tag, flags
+      18,   17,   17,   17, 0x05,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_AnnotationWidget[] = {
+    "AnnotationWidget\0\0dataChanged()\0"
+};
+
+void AnnotationWidget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        AnnotationWidget *_t = static_cast<AnnotationWidget *>(_o);
+        switch (_id) {
+        case 0: _t->dataChanged(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData AnnotationWidget::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject AnnotationWidget::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_AnnotationWidget,
+      qt_meta_data_AnnotationWidget, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &AnnotationWidget::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *AnnotationWidget::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *AnnotationWidget::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_AnnotationWidget))
+        return static_cast<void*>(const_cast< AnnotationWidget*>(this));
+    return QObject::qt_metacast(_clname);
+}
+
+int AnnotationWidget::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 1)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 1;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void AnnotationWidget::dataChanged()
+{
+    QMetaObject::activate(this, &staticMetaObject, 0, 0);
+}
+static const uint qt_meta_data_TextAnnotationWidget[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_TextAnnotationWidget[] = {
+    "TextAnnotationWidget\0"
+};
+
+void TextAnnotationWidget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData TextAnnotationWidget::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject TextAnnotationWidget::staticMetaObject = {
+    { &AnnotationWidget::staticMetaObject, qt_meta_stringdata_TextAnnotationWidget,
+      qt_meta_data_TextAnnotationWidget, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &TextAnnotationWidget::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *TextAnnotationWidget::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *TextAnnotationWidget::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_TextAnnotationWidget))
+        return static_cast<void*>(const_cast< TextAnnotationWidget*>(this));
+    return AnnotationWidget::qt_metacast(_clname);
+}
+
+int TextAnnotationWidget::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = AnnotationWidget::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_StampAnnotationWidget[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_StampAnnotationWidget[] = {
+    "StampAnnotationWidget\0"
+};
+
+void StampAnnotationWidget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData StampAnnotationWidget::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject StampAnnotationWidget::staticMetaObject = {
+    { &AnnotationWidget::staticMetaObject, qt_meta_stringdata_StampAnnotationWidget,
+      qt_meta_data_StampAnnotationWidget, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &StampAnnotationWidget::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *StampAnnotationWidget::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *StampAnnotationWidget::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_StampAnnotationWidget))
+        return static_cast<void*>(const_cast< StampAnnotationWidget*>(this));
+    return AnnotationWidget::qt_metacast(_clname);
+}
+
+int StampAnnotationWidget::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = AnnotationWidget::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_LineAnnotationWidget[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_LineAnnotationWidget[] = {
+    "LineAnnotationWidget\0"
+};
+
+void LineAnnotationWidget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData LineAnnotationWidget::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject LineAnnotationWidget::staticMetaObject = {
+    { &AnnotationWidget::staticMetaObject, qt_meta_stringdata_LineAnnotationWidget,
+      qt_meta_data_LineAnnotationWidget, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &LineAnnotationWidget::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *LineAnnotationWidget::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *LineAnnotationWidget::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_LineAnnotationWidget))
+        return static_cast<void*>(const_cast< LineAnnotationWidget*>(this));
+    return AnnotationWidget::qt_metacast(_clname);
+}
+
+int LineAnnotationWidget::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = AnnotationWidget::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_HighlightAnnotationWidget[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_HighlightAnnotationWidget[] = {
+    "HighlightAnnotationWidget\0"
+};
+
+void HighlightAnnotationWidget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData HighlightAnnotationWidget::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject HighlightAnnotationWidget::staticMetaObject = {
+    { &AnnotationWidget::staticMetaObject, qt_meta_stringdata_HighlightAnnotationWidget,
+      qt_meta_data_HighlightAnnotationWidget, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &HighlightAnnotationWidget::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *HighlightAnnotationWidget::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *HighlightAnnotationWidget::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_HighlightAnnotationWidget))
+        return static_cast<void*>(const_cast< HighlightAnnotationWidget*>(this));
+    return AnnotationWidget::qt_metacast(_clname);
+}
+
+int HighlightAnnotationWidget::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = AnnotationWidget::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_GeomAnnotationWidget[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_GeomAnnotationWidget[] = {
+    "GeomAnnotationWidget\0"
+};
+
+void GeomAnnotationWidget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData GeomAnnotationWidget::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject GeomAnnotationWidget::staticMetaObject = {
+    { &AnnotationWidget::staticMetaObject, qt_meta_stringdata_GeomAnnotationWidget,
+      qt_meta_data_GeomAnnotationWidget, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &GeomAnnotationWidget::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *GeomAnnotationWidget::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *GeomAnnotationWidget::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_GeomAnnotationWidget))
+        return static_cast<void*>(const_cast< GeomAnnotationWidget*>(this));
+    return AnnotationWidget::qt_metacast(_clname);
+}
+
+int GeomAnnotationWidget::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = AnnotationWidget::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_FileAttachmentAnnotationWidget[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_FileAttachmentAnnotationWidget[] = {
+    "FileAttachmentAnnotationWidget\0"
+};
+
+void FileAttachmentAnnotationWidget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData FileAttachmentAnnotationWidget::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject FileAttachmentAnnotationWidget::staticMetaObject = {
+    { &AnnotationWidget::staticMetaObject, qt_meta_stringdata_FileAttachmentAnnotationWidget,
+      qt_meta_data_FileAttachmentAnnotationWidget, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &FileAttachmentAnnotationWidget::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *FileAttachmentAnnotationWidget::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *FileAttachmentAnnotationWidget::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_FileAttachmentAnnotationWidget))
+        return static_cast<void*>(const_cast< FileAttachmentAnnotationWidget*>(this));
+    return AnnotationWidget::qt_metacast(_clname);
+}
+
+int FileAttachmentAnnotationWidget::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = AnnotationWidget::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_CaretAnnotationWidget[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_CaretAnnotationWidget[] = {
+    "CaretAnnotationWidget\0"
+};
+
+void CaretAnnotationWidget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData CaretAnnotationWidget::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject CaretAnnotationWidget::staticMetaObject = {
+    { &AnnotationWidget::staticMetaObject, qt_meta_stringdata_CaretAnnotationWidget,
+      qt_meta_data_CaretAnnotationWidget, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &CaretAnnotationWidget::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *CaretAnnotationWidget::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *CaretAnnotationWidget::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_CaretAnnotationWidget))
+        return static_cast<void*>(const_cast< CaretAnnotationWidget*>(this));
+    return AnnotationWidget::qt_metacast(_clname);
+}
+
+int CaretAnnotationWidget::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = AnnotationWidget::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_InkAnnotationWidget[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_InkAnnotationWidget[] = {
+    "InkAnnotationWidget\0"
+};
+
+void InkAnnotationWidget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData InkAnnotationWidget::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject InkAnnotationWidget::staticMetaObject = {
+    { &AnnotationWidget::staticMetaObject, qt_meta_stringdata_InkAnnotationWidget,
+      qt_meta_data_InkAnnotationWidget, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &InkAnnotationWidget::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *InkAnnotationWidget::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *InkAnnotationWidget::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_InkAnnotationWidget))
+        return static_cast<void*>(const_cast< InkAnnotationWidget*>(this));
+    return AnnotationWidget::qt_metacast(_clname);
+}
+
+int InkAnnotationWidget::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = AnnotationWidget::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+QT_END_MOC_NAMESPACE

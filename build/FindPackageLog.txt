@@ -1,0 +1,37 @@
+
+-- The following OPTIONAL packages have been found:
+
+ * X11
+ * Threads
+ * Perl
+ * QImageBlitz , "An image effects library" , <http://sourceforge.net/projects/qimageblitz>
+   "Required to build Okular."
+ * Poppler
+ * LibSpectre
+ * Freetype
+ * PkgConfig
+
+-- The following REQUIRED packages have been found:
+
+ * Qt4
+ * Automoc4
+ * Phonon (required version >= 4.3.80)
+ * KDE4Internal
+ * KDE4 (required version >= 4.6.0)
+ * ZLIB
+
+-- The following OPTIONAL packages have not been found:
+
+ * ActiveApp , "Support for developing applications for Plasma Active" , <https://projects.kde.org/projects/extragear/base/plasma-mobile>
+   ""
+ * KActivities (required version >= 6.1.0) , "Activities interface library" , <https://projects.kde.org/projects/kde/kdelibs/kactivities>
+   "Required for Activities integration."
+ * CHM , "A library for dealing with Microsoft ITSS/CHM format files" , <http://www.jedrea.com/chmlib>
+   "Support CHM files in okular."
+ * DjVuLibre , "A library for dealing with DjVu formatted files" , <http://djvulibre.djvuzone.org>
+   "Support for DjVu files in okular."
+ * TIFF
+ * JPEG , "A library for reading and writing JPEG image files." , <http://www.ijg.org>
+   "Support fof PalmDB documents in okular."
+ * EPub
+ * QCA2

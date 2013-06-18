@@ -1,0 +1,263 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'textdocumentgenerator.h'
+**
+** Created: Sat Jun 8 19:28:21 2013
+**      by: The Qt Meta Object Compiler version 63 (Qt 4.8.4)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../core/textdocumentgenerator.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'textdocumentgenerator.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.4. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_Okular__TextDocumentConverter[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       8,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       8,       // signalCount
+
+ // signals: signature, parameters, type, tag, flags
+      58,   31,   30,   30, 0x05,
+     118,   85,   30,   30, 0x05,
+     174,  153,   30,   30, 0x05,
+     223,  207,   30,   30, 0x05,
+     270,  260,   30,   30, 0x05,
+     326,  309,   30,   30, 0x05,
+     345,  309,   30,   30, 0x05,
+     366,  309,   30,   30, 0x05,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_Okular__TextDocumentConverter[] = {
+    "Okular::TextDocumentConverter\0\0"
+    "link,cursorBegin,cursorEnd\0"
+    "addAction(Action*,int,int)\0"
+    "annotation,cursorBegin,cursorEnd\0"
+    "addAnnotation(Annotation*,int,int)\0"
+    "level,title,position\0"
+    "addTitle(int,QString,QTextBlock)\0"
+    "key,value,title\0addMetaData(QString,QString,QString)\0"
+    "key,value\0addMetaData(DocumentInfo::Key,QString)\0"
+    "message,duration\0error(QString,int)\0"
+    "warning(QString,int)\0notice(QString,int)\0"
+};
+
+void Okular::TextDocumentConverter::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        TextDocumentConverter *_t = static_cast<TextDocumentConverter *>(_o);
+        switch (_id) {
+        case 0: _t->addAction((*reinterpret_cast< Action*(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2])),(*reinterpret_cast< int(*)>(_a[3]))); break;
+        case 1: _t->addAnnotation((*reinterpret_cast< Annotation*(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2])),(*reinterpret_cast< int(*)>(_a[3]))); break;
+        case 2: _t->addTitle((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2])),(*reinterpret_cast< const QTextBlock(*)>(_a[3]))); break;
+        case 3: _t->addMetaData((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2])),(*reinterpret_cast< const QString(*)>(_a[3]))); break;
+        case 4: _t->addMetaData((*reinterpret_cast< DocumentInfo::Key(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
+        case 5: _t->error((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
+        case 6: _t->warning((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
+        case 7: _t->notice((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData Okular::TextDocumentConverter::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject Okular::TextDocumentConverter::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_Okular__TextDocumentConverter,
+      qt_meta_data_Okular__TextDocumentConverter, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &Okular::TextDocumentConverter::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *Okular::TextDocumentConverter::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *Okular::TextDocumentConverter::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_Okular__TextDocumentConverter))
+        return static_cast<void*>(const_cast< TextDocumentConverter*>(this));
+    return QObject::qt_metacast(_clname);
+}
+
+int Okular::TextDocumentConverter::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 8)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 8;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void Okular::TextDocumentConverter::addAction(Action * _t1, int _t2, int _t3)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
+    QMetaObject::activate(this, &staticMetaObject, 0, _a);
+}
+
+// SIGNAL 1
+void Okular::TextDocumentConverter::addAnnotation(Annotation * _t1, int _t2, int _t3)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
+    QMetaObject::activate(this, &staticMetaObject, 1, _a);
+}
+
+// SIGNAL 2
+void Okular::TextDocumentConverter::addTitle(int _t1, const QString & _t2, const QTextBlock & _t3)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
+    QMetaObject::activate(this, &staticMetaObject, 2, _a);
+}
+
+// SIGNAL 3
+void Okular::TextDocumentConverter::addMetaData(const QString & _t1, const QString & _t2, const QString & _t3)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)) };
+    QMetaObject::activate(this, &staticMetaObject, 3, _a);
+}
+
+// SIGNAL 4
+void Okular::TextDocumentConverter::addMetaData(DocumentInfo::Key _t1, const QString & _t2)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    QMetaObject::activate(this, &staticMetaObject, 4, _a);
+}
+
+// SIGNAL 5
+void Okular::TextDocumentConverter::error(const QString & _t1, int _t2)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    QMetaObject::activate(this, &staticMetaObject, 5, _a);
+}
+
+// SIGNAL 6
+void Okular::TextDocumentConverter::warning(const QString & _t1, int _t2)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    QMetaObject::activate(this, &staticMetaObject, 6, _a);
+}
+
+// SIGNAL 7
+void Okular::TextDocumentConverter::notice(const QString & _t1, int _t2)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    QMetaObject::activate(this, &staticMetaObject, 7, _a);
+}
+static const uint qt_meta_data_Okular__TextDocumentGenerator[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       5,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: signature, parameters, type, tag, flags
+      34,   31,   30,   30, 0x08,
+      61,   31,   30,   30, 0x08,
+      96,   31,   30,   30, 0x08,
+     129,   31,   30,   30, 0x08,
+     168,  166,   30,   30, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_Okular__TextDocumentGenerator[] = {
+    "Okular::TextDocumentGenerator\0\0,,\0"
+    "addAction(Action*,int,int)\0"
+    "addAnnotation(Annotation*,int,int)\0"
+    "addTitle(int,QString,QTextBlock)\0"
+    "addMetaData(QString,QString,QString)\0"
+    ",\0addMetaData(DocumentInfo::Key,QString)\0"
+};
+
+void Okular::TextDocumentGenerator::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        TextDocumentGenerator *_t = static_cast<TextDocumentGenerator *>(_o);
+        switch (_id) {
+        case 0: _t->d_func()->addAction((*reinterpret_cast< Action*(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2])),(*reinterpret_cast< int(*)>(_a[3]))); break;
+        case 1: _t->d_func()->addAnnotation((*reinterpret_cast< Annotation*(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2])),(*reinterpret_cast< int(*)>(_a[3]))); break;
+        case 2: _t->d_func()->addTitle((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2])),(*reinterpret_cast< const QTextBlock(*)>(_a[3]))); break;
+        case 3: _t->d_func()->addMetaData((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2])),(*reinterpret_cast< const QString(*)>(_a[3]))); break;
+        case 4: _t->d_func()->addMetaData((*reinterpret_cast< DocumentInfo::Key(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData Okular::TextDocumentGenerator::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject Okular::TextDocumentGenerator::staticMetaObject = {
+    { &Generator::staticMetaObject, qt_meta_stringdata_Okular__TextDocumentGenerator,
+      qt_meta_data_Okular__TextDocumentGenerator, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &Okular::TextDocumentGenerator::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *Okular::TextDocumentGenerator::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *Okular::TextDocumentGenerator::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_Okular__TextDocumentGenerator))
+        return static_cast<void*>(const_cast< TextDocumentGenerator*>(this));
+    if (!strcmp(_clname, "Okular::ConfigInterface"))
+        return static_cast< Okular::ConfigInterface*>(const_cast< TextDocumentGenerator*>(this));
+    if (!strcmp(_clname, "org.kde.okular.ConfigInterface/0.1"))
+        return static_cast< Okular::ConfigInterface*>(const_cast< TextDocumentGenerator*>(this));
+    return Generator::qt_metacast(_clname);
+}
+
+int Okular::TextDocumentGenerator::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = Generator::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 5)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 5;
+    }
+    return _id;
+}
+QT_END_MOC_NAMESPACE
