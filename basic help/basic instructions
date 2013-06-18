@@ -1,0 +1,40 @@
+
+
+
+* Start-up of Okular.
+
+- Needs a KDE environment, instructions are on homepage. Needs additional environments, like libpoppler-qt4.
+Exhaustive list should be on homepage.
+
+-To run, I have added 
+
+1) In "~/.bashrc" added:
+export KDEDIRS=$KDEDIRS:$HOME/install:$(kde4-config --prefix); kbuildsycoca4
+
+2) In "~/.profile" added (which is my separate installation folder) Note. Running two different versions of Okular
+is so far unsuccessful.:
+
+# set PATH so it includes user's private bin if it exists
+if [ -d "$HOME/bin" ] ; then
+    PATH="$HOME/bin:$HOME/install/bin:$PATH"
+fi
+
+3) In /etc/environment
+
+export PKG_CONFIG_PATH=/where/install/poppler/lib/pkgconfig:$PKG_CONFIG_PATH
+export LD_LIBRARY_PATH=/where/install/poppler/lib:$LD_LIBRARY_PAT
+
+To run Okular, terminal must be running for bash commands to be used.
+
+
+
+* Compiling Okular
+
+I used simple c++ commands
+
+kasutaja@kasutaja-laptop:~/Downloads/okulardev/okular$ cd build && cmake -DCMAKE_INSTALL_PREFIX=$HOME/install/ .. && make
+kasutaja@kasutaja-laptop:~/Downloads/okulardev/okular/build$ make install
+
+To replace changes in current version, only "make install" part is needed.
+
+

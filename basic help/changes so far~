@@ -1,0 +1,34 @@
+UI/pageview.cpp
+
+Created a new menu item called tagTheText, with message Tag the Text.
+
+On the basis of copyTextSelection(), made a function called copyPropsSelection(),
+that is exactly the same but works on selectedProps().
+
+selectedProps() is a function based on selectedText(), however the purpose of it is to retrieve the
+coordinates of selected items rather than text itself. 
+
+
+pagesWithTextSelection seems to be made with 
+void PageView::selectionStart( const QPoint & pos, const QColor & color, bool /*aboveAll*/ )
+and
+void PageView::updateSelection( const QPoint & pos )
+
+That is it should include also the coordinates of the boxes (one for each line), which is what
+should be retrieved.
+
+
+
+
+
+core/annotations.h
+
+New class called ThematicTagAnnotation , based entirely on HighlightAnnotation.
+
+New public enumeration of subtype in class Annotation (OKULAR_EXPORT) called AThematicTag = 15,
+
+new functions within the same Annotation class 
+	void setThematicTags( const QString &thematictags );
+	QString thematicTags() const;
+
+

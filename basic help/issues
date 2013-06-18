@@ -1,0 +1,3 @@
+
+I can't figure out what exactly pagesWithTextSelection contains or how to read it. Needed for storing inside an xml file for later retrieval.
+Current version outputs the contents or type of pagesWithTextSelection to clipboard, but it is illegible.

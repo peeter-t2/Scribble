@@ -1,0 +1,21 @@
+The idea is to retrieve the exact text selection used while tagging at a later point on click.
+
+For this:
+
+1) The coordinates need to be saved in a similar fashion as highlight_annotation coordinates are.
+
+2) Text selection needs to be retrieved on one click based on those coordinates.
+
+3) There has to be something to click on. A later step.
+
+
+This would allow text selections to be stored in a similar manner as highlights, while at the same 
+time they might be tagged as well. Tags can be stored similarly to highlight or any other annotation
+comments.
+
+
+This would allow later tags to be a) searchable, and b) separately manipulable. There could be a global switch
+for tag button visibility.
+
+
+I would place the tag buttons somewhere on the side, but that is a later GUI issue.

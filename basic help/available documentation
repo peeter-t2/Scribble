@@ -1,0 +1,25 @@
+* Can't read Mainpage.dox file, seems to be a manual.
+
+Some links, but no results
+  - some websites http://edoc.sourceforge.net/EDocManual/ch06s06.html
+  - http://cs.smu.ca/~porter/csc/common_341_342/doxygen/doxygen_info.html
+  - http://www.lrde.epita.fr/~didier/software/dox.pdf
+  - http://gcc.gnu.org/onlinedocs/libstdc++/manual/documentation_hacking.html
+  - this file is definately a doxygen file: proof http://www.star.bnl.gov/public/comp/sofi/doxygen/commands.html
+
+* Okular manuals
+Primary source will still be internal documentation, still can't access the
+.dox file. Gedit does do the trick for now.
+
+- May be useful to set up inverse search (needs effort)
+  - http://docs.kde.org/stable/en/kdegraphics/okular/inverse_search.html
+- Both of them are users manuals + extras
+  - http://docs.kde.org/stable/en/kdegraphics/okular/index.html 
+  - http://docs.kde.org/stable/en/kdegraphics/okular/okular.pdf
+  - http://docs.kde.org/stable/en/kdegraphics/okular/annotations.html
+
+
+* Okular reviews
+
+- Okular vs Xournal, still updated 08.06.13 http://brutusfacticus.wordpress.com/2013/03/04/pdf-highlighting-annotations-in-gnulinux-okular/ 
+
