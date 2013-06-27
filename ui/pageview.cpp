@@ -803,7 +803,23 @@ QString PageViewPrivate::selectedText() const
     if ( selpages.count() == 1 )
     {
         pg = document->page( selpages.first() );
-        text.append( pg->text( pg->textSelection(), Okular::TextPage::CentralPixelTextAreaInclusionBehaviour ) );
+        // pg->textSelection() annab QRect objekti
+        // pg->text() annab teksti mis sisaldub sissesöödetud QRecti koordinaatide sees
+        // lõppuks need lisatakse (append) QString objekti nimega text
+        // text.append( pg->text( pg->textSelection(), Okular::TextPage::CentralPixelTextAreaInclusionBehaviour ) );
+        
+        // me tahame et text.appendi läheks koordinaadid
+        // text.append( pg->textSelection()->left() );
+        // text.append( pg->textSelection()->top() );
+        // text.append( pg->textSelection()->right() );
+        // text.append( pg->textSelection()->bottom() );
+        // aga see vist ei kompileeri, sest C++ vajab soliidsemalt defineeritud, umbes
+        QRect koordinaadid = pg->textSelection();
+        text.append( pg->textSelection()->left() );
+        text.append( pg->textSelection()->top() );
+        text.append( pg->textSelection()->right() );
+        text.append( pg->textSelection()->bottom() );
+        
     }
     else
     {
